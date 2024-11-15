@@ -11,11 +11,56 @@
     <h1 class = "title">PROTEST FOOD</h1>
     <h2 class = "description">An archive of all the ways food is related to advocacy, solidarity, resistance, strength and protest </h2>
 
+    <!-- BUTTONS -->
+    <div class="button-container">
+        <a href="index.html" class="button">browse</a>
+        <a href="about.html" class="button">topics</a>
+        <a href="about.html" class="button">about</a>
+        <a href="about.html" class="button">resources</a>
+        <a href="about.html" class="button">submit</a>
+    </div>
+    
+
     <div class="wrapper">
         <div class="wrapperMenu">
+            <h2 class = "filterby">Filter by:</h2>
+
+            <!-- Dropdown for category-->
+            
+            <div class="dropdown" id="category">
+                <div class="dropdown-toggle">category
+                    <img style = "width: 20px" src = "images/symbols/dropdownArrow.png">
+                </div>
+                <div class="dropdown-menu">
+                    <!-- <input type="text" id="region" placeholder="Search category..."> -->
+                    <label><input type="checkbox" value="Restaurant"> Restaurant</label>
+                    <label><input type="checkbox" value="Community or Organization"> Community/ Organization</label>
+                    <label><input type="checkbox" value="Protest"> Protest</label>
+                    <label><input type="checkbox" value="Practice or Custom"> Practice/ Custom</label>
+                    <label><input type="checkbox" value="Food Item"> Food Item</label>
+                    <label><input type="checkbox" value="Mutual Aid"> Mutual Aid</label>
+                </div>
+            </div>
+
+            <!-- Dropdown for scale-->
+            <div class="dropdown" id="scale">
+                <div class="dropdown-toggle">scale
+                    <img style = "width: 20px" src = "images/symbols/dropdownArrow.png">
+                </div>
+                <div class="dropdown-menu">
+                    <!-- <input type="text" id="scale" placeholder="scale"> -->
+                    <label><input type="checkbox" value="Ground-Up or Local"> Ground-Up/ Local Initiative</label>
+                    <label><input type="checkbox" value="State"> State/ City</label>
+                    <label><input type="checkbox" value="National"> National</label>
+                    <label><input type="checkbox" value="International"> International</label>
+                    <label><input type="checkbox" value="Transnational"> Transnational</label>
+                </div>
+            </div>
+
+
             <!-- Dropdown for Sorting by Date -->
             <div class="dropdown">
-                <div class="dropdown-toggle">Sort by date...
+                <div class="dropdown-toggle">date
                     <img style="width: 20px" src="images/symbols/dropdownArrow.png">
                 </div>
                 <div class="dropdown-menu">
@@ -26,7 +71,7 @@
 
             <!-- Dropdown for Country/Land -->
             <div class="dropdown">
-                <div class="dropdown-toggle">Select Countries/Lands/Territories
+                <div class="dropdown-toggle"> countries/ lands/ territories
                     <img style = "width: 20px" src = "images/symbols/dropdownArrow.png">
                 </div>
                 <div class="dropdown-menu">
@@ -67,7 +112,7 @@
 
             <!-- Dropdown for Region-->
             <div class="dropdown">
-                <div class="dropdown-toggle">Select Region
+                <div class="dropdown-toggle">region
                     <img style = "width: 20px" src = "images/symbols/dropdownArrow.png">
                 </div>
                 <div class="dropdown-menu">
@@ -90,7 +135,12 @@
         <div class="content flex-container">
 
             <!-- AFGHANISTAN -->
-            <div class="flex-item" data-country="Afghanistan" data-region="Central and Southern Asia" data-date="2024">
+            <div class="flex-item" 
+                data-category = "Restaurant"
+                data-date="2024"
+                data-scale = "Ground-Up or Local" 
+                data-country="Afghanistan" 
+                data-region="Central and Southern Asia">
                 <a href="https://www.npr.org/sections/goatsandsoda/2023/06/01/1179134749/a-pop-up-restaurant-in-kabul-is-run-by-women-for-women-the-taliban-is-watching" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/banowan-e-afghan.webp" alt = "Banowan-e-Afghan, Afghanistan">
                 </a>
@@ -100,7 +150,12 @@
                 <p class = "countryName">Kabul, Afghanistan</p>
             </div>
 
-            <div class="flex-item" data-country="Afghanistan" data-region="Central and Southern Asia" data-date="2024">
+            <div class="flex-item" 
+                data-category = "Community or Organization, Mutual Aid"
+                data-date="2024"
+                data-scale = "State" 
+                data-country="Afghanistan" 
+                data-region="Central and Southern Asia" >
                 <a href="https://www.care.org/news-and-stories/our-whole-day-is-spent-in-hunger-how-community-kitchens-in-afghanistan-work-to-feed-families-in-need/#:~:text=The%20meal%20program%2C%20led%20by,drivers%2C%20shopkeepers%2C%20and%20families." class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/afghan_communityKitchen.webp" alt = "Afghanistan Community Kitchen">
                 </a>
@@ -112,7 +167,12 @@
 
 
             <!-- CUBA -->
-            <div class="flex-item" data-country="USA, Cuba" data-region="Latin America and the Caribbean, Europe and Nothern America" data-date="2024">
+            <div class="flex-item"
+                data-category = "Community or Organization, Mutual Aid" 
+                data-date="2024" 
+                data-scale = "Transnational" 
+                data-country="USA, Cuba" 
+                data-region="Latin America and the Caribbean, Europe and Nothern America">
                 <a href="https://peoplesdispatch.org/2024/08/30/thousands-of-people-in-us-send-800-tons-of-urgently-needed-flour-to-cuba/" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/breadForOurNeighbours.jpg" alt = "Let Cuba Live: Bread For Our Neighbours">
                 </a>
@@ -123,7 +183,12 @@
             </div>
 
             <!-- HONG KONG -->
-            <div class="flex-item" data-country="Hong Kong" data-region="Eastern and South Eastern Asia" data-date="2019">
+            <div class="flex-item" 
+                data-category = "Food Item, Protest" 
+                data-date="2019"
+                data-scale = "Ground-Up or Local" 
+                data-country="Hong Kong" 
+                data-region="Eastern and South Eastern Asia">
                 <a href="https://www.atlasobscura.com/articles/extradition-hong-kong-mooncakes" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/protestMooncakes.webp" alt = "Protest Mooncakes">
                 </a>
@@ -135,7 +200,12 @@
             </div>
 
 
-            <div class="flex-item" data-country="Hong Kong" data-region="Eastern and South Eastern Asia" data-date="2020">
+            <div class="flex-item" 
+                data-category = "Food Item, Protest" 
+                data-date="2020"
+                data-scale = "Ground-Up or Local" 
+                data-country="Hong Kong" 
+                data-region="Eastern and South Eastern Asia">
                 <a href="https://www.scmp.com/lifestyle/food-drink/article/3085568/ice-cream-cry-peppercorn-flavour-tear-gas-gelato-packs-some" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/tearGasIceCream.webp" alt = "Tear Gas Ice Cream, Hong Kong">
                 </a>
@@ -147,7 +217,12 @@
 
 
             <!-- INDIA -->
-            <div class="flex-item" data-country="India" data-region="Central and Southern Asia" data-date="1930">
+            <div class="flex-item" 
+                data-category = "Protest"
+                data-date="1930"
+                data-scale = "National" 
+                data-country="India" 
+                data-region="Central and Southern Asia" >
                 <a href="https://www.history.com/topics/asian-history/salt-march" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/saltMarch.jpg" alt = "The Salt March, India">
                 </a>
@@ -158,7 +233,12 @@
             </div>
 
 
-            <div class="flex-item" data-country="India" data-region="Central and Southern Asia" data-date="2021">
+            <div class="flex-item" 
+                data-category = "Protest"     
+                data-date="2021"
+                data-scale = "National" 
+                data-country="India" 
+                data-region="Central and Southern Asia">
                 <a href="https://www.npr.org/2021/09/27/1040834711/indias-farmers-renew-protests-challenging-modi-government" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/farmersProtestIndia.jpg" alt = "Farmers Protest India">
                 </a>
@@ -170,7 +250,12 @@
                 
 
             <!-- INDONESIA -->
-            <div class="flex-item" data-country="Indonesia" data-region="Eastern and South Eastern Asia" data-date="2024">
+            <div class="flex-item" 
+                data-category = "Community or Organization" 
+                data-date="2024"
+                data-scale = "Ground-Up or Local" 
+                data-country="Indonesia" 
+                data-region="Eastern and South Eastern Asia" >
                 <a href="https://bakudapan.com/en/" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/Bakudapan.jpg" alt = "Bakudapan Food Study Group">
                 </a>
@@ -182,7 +267,12 @@
 
 
             <!-- LEBANON -->
-            <div class="flex-item" data-country="Lebanon" data-region="Northern Africa and Western Asia" data-date="2010">
+            <div class="flex-item" 
+                data-category = "Food Item, Restaurant"
+                data-date="2010"
+                data-scale ="National"
+                data-country="Lebanon" 
+                data-region="Northern Africa and Western Asia" >
                 <a href="https://www.npr.org/sections/thesalt/2016/07/18/483715410/give-chickpeas-a-chance-why-hummus-unites-and-divides-the-mideast" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/hummusWars.webp" alt = "World's largest hummus">
                 </a>
@@ -194,7 +284,12 @@
 
 
             <!-- MALAYSIA -->
-            <div class="flex-item" data-country="Malaysia, Indonesia, Singapore" data-date="2024">
+            <div class="flex-item" 
+                data-category = "Community or Organization" 
+                data-date="2024"
+                data-scale ="National"
+                data-country="Malaysia, Indonesia, Singapore"
+                data-region="Eastern and South Eastern Asia" >
                 <a href="https://oranglaut.sg/" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/orangLaut.webp" alt = "Image of Orang Laut">
                 </a>
@@ -206,7 +301,12 @@
 
 
             <!-- MYANMAR -->
-            <div class="flex-item" data-country="Myanmar" data-date="2021">
+            <div class="flex-item" 
+                data-category = "Food Item, Protest" 
+                data-date="2021"
+                data-scale ="Ground-Up or Local"
+                data-country="Myanmar" 
+                data-region="Eastern and South Eastern Asia" >
                 <a href="https://www.youtube.com/watch?v=5r2oQoqncFI" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/MontLoneYayPaw.jpg" alt = "Mont Lone Yay Paw from Myanmar">
                 </a>
@@ -216,7 +316,12 @@
                 <p class = "countryName">Myanmar</p>
             </div>
 
-            <div class="flex-item" data-country="Myanmar, Thailand, Taiwan, Indonesia, Philippines, Malaysia, Japan, Hong Kong" data-date="2024">
+            <div class="flex-item" 
+                data-category = "Community or Organization, Protest" 
+                data-date="2024"
+                data-scale ="Transnational"
+                data-country="Myanmar, Thailand, Taiwan, Indonesia, Philippines, Malaysia, Japan, Hong Kong" 
+                data-region="Eastern and South Eastern Asia" >
                 <a href="https://mediamanipulation.org/case-studies/milk-tea-alliance-meme-war-transnational-activism" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/milkTeaAlliance.jpg" alt = "Milk Tea Alliance">
                 </a>
@@ -228,7 +333,12 @@
 
 
             <!-- NIGERIA -->
-            <div class="flex-item" data-date="1860" data-country="Saint Helena Ascension and Tristan da Cunha, Benin, Burkina Faso, Cape Verde, The Gambia, Ghana, Guinea, Sierra Leone, Togo, Senegal, Nigeria, Niger, Mali, Mauritania">
+            <div class="flex-item" 
+                data-category = "Practice or Custom" 
+                data-date="1860" 
+                data-scale ="Transnational"
+                data-country="Saint Helena Ascension and Tristan da Cunha, Benin, Burkina Faso, Cape Verde, The Gambia, Ghana, Guinea, Sierra Leone, Togo, Senegal, Nigeria, Niger, Mali, Mauritania"
+                data-region="Sub-Saharan Africa" >
                 <a href="https://blurredbylines.com/blog/west-african-slaves-rice-hair-maroon-french-guiana-colonialism/" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/blackRice.jpg" alt = "Braiding Rice Seeds into Hair">
                 </a>
@@ -240,7 +350,12 @@
 
 
             <!-- USA -->
-            <div class="flex-item" data-country="USA" data-date="1980">
+            <div class="flex-item" 
+                data-category = "Community or Organization, Mutual Aid" 
+                data-date="1980"
+                data-scale ="National"
+                data-country="USA" 
+                data-region="Europe and Nothern America" >
                 <a href="https://www.blackpast.org/african-american-history/black-panther-partys-free-breakfast-program-1969-1980/" target=”_blank”>
                     <img class = "foodImage" src = "images/freeBreakfastProgram.jpg" alt = "Free Breakfast Program">
                 </a>
@@ -252,7 +367,12 @@
             </div>
 
 
-            <div class="flex-item" data-country="USA" data-date="2024">
+            <div class="flex-item" 
+                data-category = "Community or Organization, Mutual Aid"
+                data-date="2024" 
+                data-scale ="Transnational"
+                data-country="USA" 
+                data-region="Europe and Nothern America" >
                 <a href="https://foodnotbombs.net/new_site/" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/foodNotBombs.jpg" alt = "Food Not Bombs">
                 </a>
@@ -262,7 +382,12 @@
                 <p class = "countryName">USA</p>
             </div>
 
-            <div class="flex-item" data-country="USA" data-date="2024">
+            <div class="flex-item" 
+                data-category = "Community or Organization, Mutual Aid" 
+                data-date="2024"
+                data-scale = "National"
+                data-country="USA" 
+                data-region="Europe and Nothern America">
                 <a href="https://blackchurchfoodsecurity.net/" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/blackChurchFoodSecurity.jpg" alt = "Black Church Food Security">
                 </a>
@@ -272,7 +397,12 @@
                 <p class = "countryName">Baltimore, MD, USA</p>
             </div>
 
-            <div class="flex-item" data-country="USA" data-date="2024">
+            <div class="flex-item" 
+                data-country="USA" 
+                data-date="2024"
+                data-scale = "State"
+                data-category = "Community or Organization, Protest" 
+                data-region="Europe and Nothern America" >
                 <a href="https://www.streetvendor.org/" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/streetVendorProject.jpg" alt = "Street Vendor Project NYC">
                 </a>
@@ -282,7 +412,12 @@
                 <p class = "countryName">New York City, USA</p>
             </div>
 
-            <div class="flex-item" data-country="USA" data-date="1960">
+            <div class="flex-item" 
+                data-category = "Community or Organization, Mutual Aid" 
+                data-date="1960"
+                data-scale = "National"
+                data-country="USA" 
+                data-region="Europe and Nothern America" >
                 <a href="https://www.atlasobscura.com/articles/what-is-a-shoebox-lunch" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/shoeboxLunches.webp" alt = "Shoebox Lunches">
                 </a>
@@ -292,7 +427,12 @@
                 <p class = "countryName">USA</p>
             </div>
 
-            <div class="flex-item" data-country="USA" data-date="2017">
+            <div class="flex-item" 
+                data-category = "Restaurant" 
+                data-date="2017"
+                data-scale = "Ground-Up or Local"
+                data-country="USA" 
+                data-region="Europe and Nothern America" >
                 <a href="https://www.conflictkitchen.org/" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/conflictKitchen.jpg" alt = "Conflict Kitchen">
                 </a>
@@ -302,7 +442,12 @@
                 <p class = "countryName">USA</p>
             </div>
 
-            <div class="flex-item" data-country="USA" data-date="2024">
+            <div class="flex-item" 
+                data-category = "Community or Organization, Mutual Aid" 
+                data-date="2024"
+                data-scale = "National"
+                data-country="USA" 
+                data-region="Europe and Nothern America" >
                 <a href="https://nefoclandtrust.org/" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/NortheastFarmers.webp" alt = "Northeast Farmers of Color Land Trust">
                 </a>
@@ -312,7 +457,12 @@
                 <p class = "countryName">USA</p>
             </div>
 
-            <div class="flex-item" data-country="USA" data-date="2024">
+            <div class="flex-item" 
+                data-category = "Restaurant, Mutual Aid" 
+                data-date="2024"
+                data-scale = "Ground-Up or Local"
+                data-country="USA" 
+                data-region="Europe and Nothern America" >
                 <a href="https://lamorada.nyc/" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/laMorada.webp" alt = "La Morada Mutual Aid">
                 </a>
@@ -322,7 +472,13 @@
                 <p class = "countryName">USA</p>
             </div>
 
-            <div class="flex-item" data-country="USA" data-date="2012">
+
+            <div class="flex-item" 
+                data-category = "Community or Organization, Mutual Aid" 
+                data-date="2012"
+                data-scale = "Ground-Up or Local"
+                data-country="USA" 
+                data-region="Europe and Nothern America" >
                 <a href="https://www.indiegogo.com/projects/everybody-s-kitchen#/updates/all" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/everybodysKitchen.webp" alt = "Everybody's Kitchen Bus">
                 </a>
@@ -337,7 +493,12 @@
 
 
             <!-- PALESTINE -->                
-            <div class="flex-item" data-country="Palestine" data-date="2024">
+            <div class="flex-item" 
+                data-category = "Community or Organization, Mutual Aid" 
+                data-date="2024"
+                data-scale = "Ground-Up or Local"
+                data-region="Nothern Africa and Western Asia" 
+                data-country="Palestine" >
                 <a href="https://viviensansour.com/Palestine-Heirloom" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/palestineHeirloom.jpg" alt = "Braiding Rice Seeds into Hair">
                 </a>
@@ -347,7 +508,12 @@
                 <p class = "countryName">Palestine</p>
             </div>
 
-            <div class="flex-item" data-country="Palestine" data-date="2012">
+            <div class="flex-item" 
+                data-category = "Community or Organization" 
+                data-date="2012"
+                data-scale = "Ground-Up or Local"
+                data-country="Palestine" 
+                data-region="Nothern Africa and Western Asia" >
                 <a href="https://justworldbooks.com/books/the-gaza-kitchen-third-edition/" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/gazaKitchen.jpg" alt = "The Gaza Kitchen">
                 </a>
@@ -358,7 +524,12 @@
             </div>
 
 
-            <div class="flex-item" data-country="Hong Kong" data-date="2016">
+            <div class="flex-item" 
+                data-category = "Protest" 
+                data-date="2016"
+                data-scale = "National"
+                data-country="Hong Kong" 
+                data-region="Eastern and South-Eastern Asia" >
                 <a href="https://qz.com/612813/hong-kongs-fishball-revolution-is-about-a-lot-more-than-just-street-food" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/fishballRevolution.webp" alt = "The Gaza Kitchen">
                 </a>
@@ -370,7 +541,12 @@
 
 
             <!-- SOUTH AFRICA -->
-            <div class="flex-item" data-country="South Africa" data-date="2024">
+            <div class="flex-item" 
+            data-category = "Community or Organization, Mutual Aid" 
+            data-date="2024"
+            data-scale = "Transnational"
+            data-country="South Africa" 
+            data-region="Sub-Saharan Africa" >
                 <a href="https://afsafrica.org/about-us/" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/AFSA.jpg" alt = "Alliance for Food Sovereignty in Africa (AFSA) ">
                 </a>
@@ -382,7 +558,12 @@
 
 
             <!-- TUNISIA -->
-            <div class="flex-item" data-country="Tunisia" data-date="2011">
+            <div class="flex-item" 
+                data-category = "Protest" 
+                data-date="2011"
+                data-scale = "Transnational"
+                data-country="Tunisia" 
+                data-region="Northern Africa and Western Asia" >
                 <a href="https://www.aljazeera.com/features/2020/12/17/remembering-mohamed-bouazizi-his-death-triggered-the-arab" class = "foodName" target=”_blank”>
                     <img class = "foodImage" src = "images/arabSpring.webp" alt = "Image of a protest during the Arab Spring">
                 </a>

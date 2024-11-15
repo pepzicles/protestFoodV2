@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'ABCFavoritMono-Regular-Trial'; /* A name you choose for the font */
+    src: url('fonts/ABCFavoritMono-Regular-Trial.otf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ABCFavoritMono-Light-Trial'; /* A name you choose for the font */
+    src: url('fonts/ABCFavoritMono-Light-Trial.otf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -7,15 +22,15 @@
 }
 
 body{
-    font-family: Helvetica, sans-serif;
+    font-family: 'ABCFavoritMono-Light-Trial', sans-serif;
 }
 
 .wrapperMenu {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; 
-    padding: 70px 0;
-    max-width: 400px; 
+    /* flex-wrap: wrap;  */
+    padding: 70px 0 0 0;
+    max-width: 60%; 
     margin: 0 auto;
 }
 
@@ -27,17 +42,18 @@ body{
 .dropdown {
     position: relative;
     width: 100%;
+    padding-right: 20px;
 }
 
 .dropdown-toggle {
     width: 100%;
-    padding: 15px; 
-    font-size: 16px; 
+    padding: 10px 10px 10px 20px; 
+    font-size: 18px; 
     font-weight: 700;
-    font-family: Helvetica, sans-serif;
-    border: 2px solid #3f51b5;
-    border-radius: 8px;
-    background-color: #e8eaf6;
+    font-family: 'ABCFavoritMono-Regular-Light', sans-serif;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: #e8ebff;
     cursor: pointer;
     text-align: left;
 }
@@ -94,13 +110,50 @@ p:last-child {
 
 /* end of copied from dropdown */
 
+.button-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
 
-.title, .description{
+.button {
+  width: 100%;
+  padding: 10px 30px 10px 30px; 
+  margin: 10px;
+  font-size: 20px; 
+  font-weight: 700;
+  font-family: 'ABCFavoritMono-Regular-Trial', sans-serif;
+  border: 2px solid black;
+  border-radius: 30px;
+  /* background-color: #FFFA7C; */
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none; /* Remove underline */
+  color: black; /* Set text color */
+}
+
+.description{
     text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding-top: 40px;
 }
 
 .title{
-    font-size: 50px;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 50px;
+    font-family: 'ABCFavoritMono-Regular-Trial', sans-serif;
+}
+
+.filterby{
+    margin-right: 0px;
+    font-size: 18px;
+    width: 70%;
 }
 
 
@@ -111,12 +164,15 @@ p:last-child {
     font-size: 30px;
     text-align: center;
     margin-top: 100px;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
 /* Style for each flex item */
 .flex-item {
-    padding: 10px;
-    flex: 1 0 14.28%; /* 7 columns by default */
+    /* padding: 100px; */
+    flex: 1 0 20%; /* 5 columns by default */
+    margin-bottom: 50px;
 }
 
 /* 5 columns when screen width is less than 1200px */
