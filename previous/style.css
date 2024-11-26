@@ -25,10 +25,6 @@ body{
     font-family: 'ABCFavoritMono-Light-Trial', sans-serif;
 }
 
-::selection {
-  background: #FFFA7C;
-}
-
 .wrapperMenu {
     display: flex;
     justify-content: center;
@@ -36,7 +32,6 @@ body{
     padding: 70px 0 0 0;
     max-width: 60%; 
     margin: 0 auto;
-    margin-bottom: 50px;
 }
 
 .menu {
@@ -133,19 +128,12 @@ p:last-child {
   font-family: 'ABCFavoritMono-Regular-Trial', sans-serif;
   border: 2px solid black;
   border-radius: 30px;
-  /* background-color: white; */
+  /* background-color: #FFFA7C; */
   cursor: pointer;
   text-align: center;
   text-decoration: none; /* Remove underline */
   color: black; /* Set text color */
 }
-
-
-.button:hover{
-    background-color:#FFFDC1;
-    transition: 0.5s;
-}
-
 
 .description{
     text-align: center;
@@ -160,12 +148,6 @@ p:last-child {
     font-size: 60px;
     padding-top: 50px;
     font-family: 'ABCFavoritMono-Regular-Trial', sans-serif;
-    text-decoration: none;
-    color: black; /* Set text color */
-}
-
-a {
-    text-decoration: none;
 }
 
 .filterby{
@@ -175,41 +157,23 @@ a {
 }
 
 
+/* FLEX CONTAINER */
 .flex-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 columns */
-    gap: 20px; /* Add space between items */
-    padding: 20px;
-    max-width: 80%; /* Adjust as needed */
-    margin: 0 auto;
-}
-
-.flex-item {
-    border-radius: 8px;
-    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to new rows */
+    font-size: 30px;
     text-align: center;
-    padding: 10px;
-    font-size: 14px; /* Adjust for readability */
+    margin-top: 100px;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
-.flex-item img {
-    object-fit: cover;
-    width: 280px;
-    height: 280px;    
-    display: block;
-    margin-left: 0;
+/* Style for each flex item */
+.flex-item {
+    /* padding: 100px; */
+    flex: 1 0 20%; /* 5 columns by default */
+    margin-bottom: 50px;
 }
-
-.flex-item h3 {
-    font-size: 16px;
-    margin: 10px 0;
-}
-
-.flex-item p {
-    font-size: 12px;
-    color: #666;
-}
-
 
 /* 5 columns when screen width is less than 1200px */
 @media (max-width: 1700px) {
@@ -257,38 +221,4 @@ a {
 .countryName{
     font-size: 19px;
     text-align: left;
-}
-
-#clear-filters{
-    background-color: white;
-    border: white;
-    font-size: 17px;
-    cursor: pointer;
-    font-family: 'ABCFavoritMono-Light-Trial', sans-serif;
-    text-align: left;
-    width: 100%;
-    color: rgb(29, 107, 210);
-}
-
-
-
-/* ABOUT PAGE */
-.aboutContainer{
-    padding: 100px;
-}
-
-.aboutHeader{
-    margin-bottom: 30px;
-}
-
-.aboutHeader2{
-    margin-top: 100px; 
-    margin-bottom: 100px;
-}
-
-.aboutPara{
-    font-size: 20px;
-    margin-bottom: 25px;
-    max-width: 1000px;
-    min-width: 500px;
 }

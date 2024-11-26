@@ -1,0 +1,112 @@
+[
+    {
+        "category": "Restaurant",
+        "date": "2024",
+        "scale": "Ground-Up or Local",
+        "country": "Afghanistan",
+        "region": "Central and Southern Asia",
+        "url": "https://www.npr.org/sections/goatsandsoda/2023/06/01/1179134749/a-pop-up-restaurant-in-kabul-is-run-by-women-for-women-the-taliban-is-watching",
+        "imageSrc": "images/banowan-e-afghan.webp",
+        "name": "Banowan-e-Afghan (2023-current)",
+        "location": "Kabul, Afghanistan"
+    },
+    {
+        "category": "Community or Organization, Mutual Aid",
+        "date": "2024",
+        "scale": "State",
+        "country": "Afghanistan",
+        "region": "Central and Southern Asia",
+        "url": "https://www.care.org/news-and-stories/our-whole-day-is-spent-in-hunger-how-community-kitchens-in-afghanistan-work-to-feed-families-in-need/#:~:text=The%20meal%20program%2C%20led%20by,drivers%2C%20shopkeepers%2C%20and%20families.",
+        "imageSrc": "images/afghan_communityKitchen.webp",
+        "name": "Afghanistan Community Kitchen (2023-current)",
+        "location": "Ghazni Province, Afghanistan"
+    },
+    {
+        "category": "Community or Organization, Mutual Aid",
+        "date": "2024",
+        "scale": "Transnational",
+        "country": "USA, Cuba",
+        "region": "Latin America and the Caribbean, Europe and Nothern America",
+        "url": "https://peoplesdispatch.org/2024/08/30/thousands-of-people-in-us-send-800-tons-of-urgently-needed-flour-to-cuba/",
+        "imageSrc": "images/breadForOurNeighbours.jpg",
+        "name": "Let Cuba Live: Bread For Our Neighbours (2024)",
+        "location": "USA, Cuba"
+    },
+    {
+        "category": "Food Item, Protest",
+        "date": "2019",
+        "scale": "Ground-Up or Local",
+        "country": "Hong Kong",
+        "region": "Eastern and South Eastern Asia",
+        "url": "https://www.atlasobscura.com/articles/extradition-hong-kong-mooncakes",
+        "imageSrc": "images/protestMooncakes.webp",
+        "name": "Protest Mooncakes (2019)",
+        "location": "Wah Yee Tang Cake Shop, Hong Kong"
+    },
+    {
+        "category": "Food Item, Protest",
+        "date": "2020",
+        "scale": "Ground-Up or Local",
+        "country": "Hong Kong",
+        "region": "Eastern and South Eastern Asia",
+        "url": "https://www.scmp.com/lifestyle/food-drink/article/3085568/ice-cream-cry-peppercorn-flavour-tear-gas-gelato-packs-some",
+        "imageSrc": "images/tearGasIceCream.webp",
+        "name": "Tear Gas Ice Cream (2020)",
+        "location": "Hong Kong"
+    },
+    {
+        "category": "Protest",
+        "date": "1930",
+        "scale": "National",
+        "country": "India",
+        "region": "Central and Southern Asia",
+        "url": "https://www.history.com/topics/asian-history/salt-march",
+        "imageSrc": "images/saltMarch.jpg",
+        "name": "Salt March (1930)",
+        "location": "India"
+    },
+    {
+        "category": "Protest",
+        "date": "2021",
+        "scale": "National",
+        "country": "India",
+        "region": "Central and Southern Asia",
+        "url": "https://www.npr.org/2021/09/27/1040834711/indias-farmers-renew-protests-challenging-modi-government",
+        "imageSrc": "images/farmersProtestIndia.jpg",
+        "name": "Farmers Protest (2020-2021)",
+        "location": "India"
+    },
+    {
+        "category": "Community or Organization",
+        "date": "2024",
+        "scale": "Ground-Up or Local",
+        "country": "Indonesia",
+        "region": "Eastern and South Eastern Asia",
+        "url": "https://bakudapan.com/en/",
+        "imageSrc": "images/Bakudapan.jpg",
+        "name": "Bakudapan Food Study Group (2020-current)",
+        "location": "Indonesia"
+    },
+    {
+        "category": "Food Item, Restaurant",
+        "date": "2010",
+        "scale": "National",
+        "country": "Lebanon",
+        "region": "Northern Africa and Western Asia",
+        "url": "https://www.npr.org/sections/thesalt/2016/07/18/483715410/give-chickpeas-a-chance-why-hummus-unites-and-divides-the-mideast",
+        "imageSrc": "images/hummusWars.webp",
+        "name": "World's Largest Hummus (2010)",
+        "location": "Lebanon"
+    },
+    {
+        "category": "Community or Organization",
+        "date": "2024",
+        "scale": "National",
+        "country": "Malaysia, Indonesia, Singapore",
+        "region": "Eastern and South Eastern Asia",
+        "url": "https://oranglaut.sg/",
+        "imageSrc": "images/orangLaut.webp",
+        "name": "Image of Orang Laut",
+        "location": "Malaysia, Indonesia, Singapore"
+    }
+]
