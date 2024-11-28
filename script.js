@@ -154,3 +154,6 @@ $(document).ready(function () {
     // Initialize with all items shown
     updateContentDisplay();
 });
+
+
+// Search by topic- Tags function

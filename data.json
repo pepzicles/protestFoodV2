@@ -184,7 +184,8 @@
         "url": "https://www.blackpast.org/african-american-history/black-panther-partys-free-breakfast-program-1969-1980/",
         "imageSrc": "images/freeBreakfastProgram.jpg",
         "name": "Free Breakfast Program (1969 - 1980)",
-        "location": "USA"
+        "location": "USA",
+        "tags": ["Civil Rights Movement", "Black Panther Party"]
     },
     {
         "category": "Community or Organization, Mutual Aid",
