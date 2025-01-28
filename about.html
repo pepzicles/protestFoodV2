@@ -20,6 +20,19 @@
         <a href="submit.html" class="button">submit</a>
     </div>
 
+    <!-- Newsletter subscription form -->
+    <div class = "newsletter">
+        <h1 class = "newsletterHeader">SUBSCRIBE TO OUR NEWSLETTER</h1>
+        <p class = "newsletterPara"> For a weekly dose of food-as-resistance examples and recipes submitted by the community</p>
+        <form name = 'submit-to-google-sheet' class = "newsletterForm">
+            <input type = "email" name = "Email" placeholder = "email" required>
+            <button type = "submit"> > </button>
+        </form>
+
+        <span id = "msg" class = "newsletterSpan"></span>
+    </div>
+
+    <!-- ABOUT PARAGRAPHS -->
     <div class = aboutContainer>
         <h1 class = "aboutHeader">ABOUT PROTEST FOOD</h1>
 
@@ -29,7 +42,27 @@
         <p class = "aboutPara">Moreover, in the capitalist economy that we currently live in, access to food, healthy options, and food education are highly monetized and intersectional with race, gender, and class.</p>
         <p class = "aboutPara">Yet, in response, we have seen many communities reclaiming food traditions and using them to heal, connect, and resist cultural erasures. </p>
         <p class = "aboutPara">PROTEST FOOD aims to brings together these powerful narratives, demonstrating food’s role in collective movements and care throughout history, around the world. </p>
-
     </div>
+
+
+    <!-- Newsletter subscription javascript -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwRBDnbwRn32KM2muL1h8AUdkEOzAe7tYGUKd49EjRkEtCjufDChNP9dGVySHnR86ie/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Thank you for subscribing!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
 </body>
 
