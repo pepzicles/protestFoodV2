@@ -35,12 +35,23 @@
     {
         "category": "Community or Organization, Mutual Aid",
         "date": "2024",
-        "scale": "Ground-Up or Local",
+        "scale": "Transnational",
+        "country": "Algeria, Croatia, Italy, Lebanon, Morocco, Tunisia",
+        "region": "Latin America and the Caribbean",
+        "url": "https://mel.cgiar.org/projects/mountainher#page-top",
+        "imageSrc": "https://mel.cgiar.org/graph/getcititionimage/report_file_id/39993",
+        "name": "MountainHER (2022 - Current)",
+        "location": "Algeria, Croatia, Italy, Lebanon, Morocco, Tunisia"
+    },
+    {
+        "category": "Community or Organization, Mutual Aid, Protest",
+        "date": "2024",
+        "scale": "National",
         "country": "Argentina",
         "region": "Latin America and the Caribbean",
         "url": "https://www.opendemocracy.net/en/5050/women-argentina-food-crisis-hunger-soup-kitchens-cook-common-pots-milei/",
-        "imageSrc": "https://cdn2.opendemocracy.net/media/images/IMG_0776.max-1520x1008.jpg",
-        "name": "‘Gustavo Cortiñas’ soup kitchen (2016 - current)",
+        "imageSrc": "https://cdn2.opendemocracy.net/media/images/rio_cuarto.width-2050.jpg",
+        "name": "Polo Obrero Picket Movement (1964 - current)",
         "location": "Argentina"
     },
     {
@@ -64,6 +75,17 @@
         "imageSrc": "images/breadForOurNeighbours.jpg",
         "name": "Let Cuba Live: Bread For Our Neighbours (2024)",
         "location": "USA, Cuba"
+    },
+    {
+        "category": "Community or Organization, Mutual Aid",
+        "date": "2018",
+        "scale": "State",
+        "country": "Canada",
+        "region": "Europe and Northern America",
+        "url": "https://foodagainstfascism.wordpress.com/",
+        "imageSrc": "https://www.concordiafoodcoalition.com/wp-content/uploads/2023/06/21427497_307065119769170_6297576554318804454_o-1024x681.jpg",
+        "name": "Food against Facism (2017 - 2018)",
+        "location": "Montreal, Quebec, Canada"
     },
     {
         "category": "Food Item, Protest",
@@ -185,7 +207,43 @@
         "imageSrc": "images/freeBreakfastProgram.jpg",
         "name": "Free Breakfast Program (1969 - 1980)",
         "location": "USA",
-        "tags": ["Civil Rights Movement", "Black Panther Party"]
+        "tags": "Civil Rights Movement, Black Panther Party"
+    },
+    {
+        "category": "Community or Organization, Mutual Aid",
+        "date": "2024",
+        "scale": "National",
+        "country": "USA",
+        "region": "Europe and Northern America",
+        "url": "https://www.soulfirefarm.org/",
+        "imageSrc": "https://www.soulfirefarm.org/wp-content/uploads/2020/10/Onion-Harvest-9.10.2016-Resized.png",
+        "name": "Soul Fire Farm (2010 - Current)",
+        "location": "Albany, NY, USA",
+        "tags": ""
+    },
+    {
+        "category": "Community or Organization, Mutual Aid",
+        "date": "2024",
+        "scale": "Ground-Up or Local",
+        "country": "USA",
+        "region": "Europe and Northern America",
+        "url": "https://blackfarmerfund.org/",
+        "imageSrc": "https://civileats.com/wp-content/uploads/2023/05/230510-black-farmer-fund-food-justice-sovereignty-urban-farming-community-local-food-6-Big-Dream-Farm-credit-Jared-Davis.jpg",
+        "name": "Black Farmer Fund (2020 - Current)",
+        "location": "Northeast states, USA",
+        "tags": ""
+    },
+    {
+        "category": "Community or Organization, Mutual Aid",
+        "date": "2024",
+        "scale": "Ground-Up or Local",
+        "country": "USA",
+        "region": "Europe and Northern America",
+        "url": "https://peopleskitchencollective.com/",
+        "imageSrc": "https://images.squarespace-cdn.com/content/v1/570463a0cf80a178dae565ac/25369ebe-f10d-463a-855f-d3e5be0e5770/PKCSTREETS+%2816%29.jpg?format=2500w",
+        "name": "People's Kitchen Collective (Current)",
+        "location": "Oakland, California, USA",
+        "tags": []
     },
     {
         "category": "Community or Organization, Mutual Aid",
@@ -208,6 +266,17 @@
         "imageSrc": "images/blackChurchFoodSecurity.jpg",
         "name": "Black Church Food Security Network (2015 - current)",
         "location": "Baltimore, MD, USA"
+    },
+    {
+        "category": "Community or Organization, Mutual Aid",
+        "date": "2024",
+        "scale": "State",
+        "country": "USA",
+        "region": "Europe and Northern America",
+        "url": "https://www.fig-nyc.org/about-fig",
+        "imageSrc": "https://images.squarespace-cdn.com/content/v1/6065fcce90516a4881d7d086/34f30df8-0fd1-4582-af5c-078ab32ba770/FIG_GROUP.jpg",
+        "name": "FIG NYC (2021 - current)",
+        "location": "NYC, NY, USA"
     },
     {
         "category": "Community or Organization, Protest",

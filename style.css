@@ -34,7 +34,7 @@ body{
     justify-content: center;
     /* flex-wrap: wrap;  */
     padding: 70px 0 0 0;
-    max-width: 60%; 
+    max-width: 80%; 
     margin: 0 auto;
     margin-bottom: 50px;
 }
@@ -274,7 +274,9 @@ a {
 
 /* ABOUT PAGE */
 .aboutContainer{
-    padding: 100px;
+    padding-left: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .aboutHeader{
@@ -290,6 +292,78 @@ a {
 .aboutPara{
     font-size: 13px;
     margin-bottom: 25px;
+    width: 50%;
     max-width: 800px;
-    min-width: 500px;
+    min-width: 400px;
+}
+
+/* Newsletter Subscription form */
+.newsletter{
+    margin-top: 50px;
+    padding-left: 5%;
+}
+
+.newsletterForm{
+    background: #ffffff; 
+    display: flex;
+    width: fit-content;
+}
+
+.newsletterForm input{
+    border: 1;
+    outline: none;
+    padding: 10px 20px;
+    height: 40px; 
+    width: 300px; 
+    font-size: 14px;
+}
+
+.newsletterForm button{
+    background: #FFFA7C;
+    border: 1px solid black;
+    border-color: black;
+    height: 40px; 
+    width: 40px; 
+    cursor: pointer;
+}
+
+.newsletterSpan{
+    font-size: 13px;
+    margin-top: 10px; 
+    display: block;
+    color: rgb(197, 42, 42);
+}
+
+.newsletterHeader{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.newsletterPara{
+    font-size: 13px;
+    margin-bottom: 25px;
+    width: 25%;
+    max-width: 800px;
+    min-width: 400px;
+}
+
+/* Resources page */
+.resource{
+    margin-bottom: 20px;
+}
+
+.resourceTitle{
+    font-family: 'ABCFavoritMono-Regular-Trial';
+    font-size: 17px;
+}
+
+
+
+/* SUBMISSION PAGE */
+.submitPara{
+    font-size: 13px;
+    margin-bottom: 25px;
+    width: 50%;
+    max-width: 570px;
+    min-width: 400px;
 }
