@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +8,8 @@
 </head>
 
 <body>
-    <h1 class = "title">PROTEST FOOD</h1>
-    <h2 class = "description">An archive of all the ways food is related to advocacy, solidarity, resistance, strength and protest </h2>
+    <h1 class="title">PROTEST FOOD</h1>
+    <h2 class="description">An archive of all the ways food is related to advocacy, solidarity, resistance, strength, and protest</h2>
 
     <!-- BUTTONS -->
     <div class="button-container">
@@ -17,30 +17,129 @@
         <a href="topics.html" class="button">topics</a>
         <a href="about.html" class="button">about</a>
         <a href="resources.html" class="button">resources</a>
-        <a href="submit.html" style = "background-color: #FFFA7C" class="button">submit</a>
+        <a href="submit.html" style="background-color: #FFFA7C" class="button">submit</a>
+    </div>
+
+    <!-- INTRO -->
+    <div class="aboutContainer">
+        <h1 class="aboutHeader">SUBMIT TO THE ARCHIVE!</h1>
+        <p class="submitPara">If you have an example of how food has been used for resistance, strength, protest, do share it with us! It could be as personal as you want it to be.</p>
+        <p class="submitPara">We will send you an email after reviewing your submission, informing you of your submission status.</p>
+    </div>
+
+    <!-- SUBMISSIONS -->
+
+    <div class="submissionContainer">
+
+        <div class="testingcontainer">
+            
+            <form name="submit-to-google-sheet" id="submissionForm">
+                <div class="form-container">
+                    <!-- Flexbox 1: Title & Description -->
+                    <div class="form-section">
+
+                        <h1 class="submissionHeader">YOUR NAME</h1>
+                        <p class="submissionSubpara">So that you will be credited for contributing to our archive!</p>
+                        <input type="text" name="Your name" class="submissionInput" required>
+
+
+                        <h1 class="submissionHeader">YOUR EMAIL ADDRESS</h1>
+                        <p class="submissionSubpara">So we can contact you if we have any questions</p>
+                        <input type="text" name="Email" class="submissionInput" required>
+
+                        <h1 class="submissionHeader">YOUR WEBSITE/ SOCIAL MEDIA </h1>
+                        <p class="submissionSubpara">OPTIONAL. So that people know where to find you!</p>
+                        <input type="text" name="Website" class="submissionInput">
+
+                        
+                        <h1 class="submissionHeader">TITLE</h1>
+                        <input type="text" name="Title" class="submissionInput" required>
+
+                        
+                    </div>
+
+                    <!-- Flexbox 2: Tags, Upload Images & Submit -->
+                    <div class="form-section">
+                        <h1 class="submissionHeader">DESCRIPTION</h1>
+                        <p class="submissionSubpara">Describe what the food is, and how it is/was used as a form of resistance in your example.</p>
+                        <textarea name="Description" rows="4" class="submissionInput" required></textarea>
+
+                        <h1 class="submissionHeader">TAGS</h1>
+                        <p class="submissionSubpara">Separate each tag with a comma. <br> Eg. LGBTQ+, Revolution, Bread</p>
+                        <input type="text" name="Tags" class="submissionInput" required>
+
+                        <h1 class="submissionHeader">UPLOAD IMAGES</h1>
+                        <p class="submissionSubpara">Add a relevant image of the food item</p>
+                        <input type="file" accept="image/*" required>
+                        <img class="submissionImage" src="" alt="" hidden required>
+
+                        <button type="submit">SUBMIT ></button>
+                        <span id="msg" class="newsletterSpan"></span>   
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
 
 
-    <!-- SUBMIT INTRO -->
-    <div class = aboutContainer>
-        <h1 class = "aboutHeader">SUBMIT TO THE ARCHIVE!</h1>
-        <p class = "submitPara">If you have an example of how food has been used for resistance, strength, protest, do share it with us! It could be as personal as you want it to be.<p>
-        <p class = "submitPara">We will send you an email within  after reviewing your submission, informing you of your submission status.  </p>
-    </div>
-
-    <!-- TITLE -->
-    <div class = aboutContainer>
-        <h1 class = "aboutHeader">Title</h1>
-        <form name = 'submit-to-archive' class = "newsletterForm">
-            <input type = "submissionTitle" name = "submissionTitle" placeholder = "Title" required>
-            <button type = "submit"> > </button>
-        </form>
-
-        <span id = "msg" class = "newsletterSpan"></span>
-        
-    </div>
 
 
 
+
+    <!-- JAVASCRIPT FOR SUBMISSION TO WORK -->
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxb-koHL8G2he4bAlpeDg1FQV93UktUvoI52upXZCXIlSw3ufJnXNukzE_y_EfU6HfU/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById("msg");
+    const fileInput = document.querySelector("input[type='file']");
+    const img = document.querySelector("img");
+
+    // TITLE AND DESCRIPTION SUBMISSION
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerHTML = "Thank you for submitting!";
+                setTimeout(() => {
+                    msg.innerHTML = "";
+                }, 5000);
+                form.reset();
+
+                // Clear the image
+                img.src = "";
+                img.hidden = true;
+            })
+            .catch(error => console.error('Error!', error.message));
+    });
+
+    // IMAGE UPLOAD
+    fileInput.addEventListener('change', () => {
+        if (fileInput.files.length > 0) {
+            const fr = new FileReader();
+            fr.addEventListener('loadend', () => {
+                const res = fr.result;
+                img.src = res;
+                img.hidden = false; // Show the image
+
+                const spt = res.split("base64,")[1];
+                const obj = {
+                    base64: spt,
+                    type: fileInput.files[0].type,
+                    name: fileInput.files[0].name,
+                };
+
+                fetch('https://script.google.com/macros/s/AKfycbyGMx9GAR3ZIiiOj8lnNzVRFlR3WIH19gdYhlShkw2Kx7wNAs1Dy1gAXCutHd9Bv3jt/exec', {
+                    method: "POST",
+                    body: JSON.stringify(obj),
+                })
+                    .then(r => r.text())
+                    .then(data => console.log(data));
+            });
+            fr.readAsDataURL(fileInput.files[0]);
+        }
+    });
+
+    </script>
+    
 </body>
-
+</html>

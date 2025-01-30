@@ -9,15 +9,15 @@ $(document).ready(function () {
         const container = $(".flex-container");
         container.empty(); // Clear the container
 
-        items.forEach(item => {
+        items.forEach((item, index) => {
             const flexItem = `
-                <div class="flex-item" 
+                <div class="flex-item" data-index="${index}" 
                     data-category="${item.category}" 
                     data-date="${item.date}" 
                     data-scale="${item.scale}" 
                     data-country="${item.country}" 
                     data-region="${item.region}">
-                    <a href="${item.url}" target="_blank">
+                    <a href="item.html?id=${index}">
                         <img src="${item.imageSrc}" alt="${item.name}">
                         <h3>${item.name}</h3>
                     </a>

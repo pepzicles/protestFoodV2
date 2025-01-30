@@ -19,6 +19,10 @@
   margin: 0;
   box-sizing: border-box;
   outline: none;
+  
+
+  font-size: 100%;
+  list-style: none;
 }
 
 body{
@@ -331,7 +335,7 @@ a {
     font-size: 13px;
     margin-top: 10px; 
     display: block;
-    color: rgb(197, 42, 42);
+    color: rgb(207, 0, 0);
 }
 
 .newsletterHeader{
@@ -360,10 +364,104 @@ a {
 
 
 /* SUBMISSION PAGE */
+.submissionForm{
+    width: 50%; 
+    min-width: 400px;
+}
+
+.submissionContainer{
+    padding-left: 5%;
+    width: 100%;
+}
+
 .submitPara{
     font-size: 13px;
     margin-bottom: 25px;
-    width: 50%;
+    width: 40%;
+    max-width: 570px;
+    min-width: 400px;
+}
+
+.submissionImage{
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.submissionHeader{
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.submissionInput{
+    font-family: 'ABCFavoritMono-Light-Trial', sans-serif;
+    font-size: 13px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.submissionSubpara{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.tagsSubpara{
+    font-size: 13px;
+}
+
+#submissionForm button{
+    background: #FFFA7C;
+    border: 1px solid black;
+    border-color: black;
+    height: 40px; 
+    width: 100%; 
+    cursor: pointer;
+    font-family: 'ABCFavoritMono-Light-Trial', sans-serif;
+    font-size: 17px;
+    
+    margin-top: 50px;
+    align-self: flex-end;
+}
+
+#submissionForm button:hover{
+    background-color:#FFFDC1;
+    transition: 0.5s;
+}
+
+/* Flexbox container */
+.form-container {
+    display: flex;
+    gap: 10%; /* Space between the two sections */
+    max-width: 90%;
+}
+
+/* Each section takes equal space */
+.form-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Full width of input fields */
+.submissionInput, textarea {
+    width: 100%;
+}
+
+/* Responsive for mobile */
+@media (max-width: 767px) {
+    .form-container {
+        flex-direction: column; /* Stack sections on mobile */
+        width: 100%;
+    }
+}
+
+
+/* EACH INDIVIDUAL ITEM PAGE */
+.item-image{
+    width: 40%;
     max-width: 570px;
     min-width: 400px;
 }
