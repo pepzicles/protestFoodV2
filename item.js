@@ -23,6 +23,7 @@ $(document).ready(function () {
         $("#item-scale").text(item.scale);
         $("#item-country").text(item.country);
         $("#item-region").text(item.region);
+        $("#item-description").text(item.description);
         $("#item-url").attr("href", item.url);
     });
 });
