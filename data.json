@@ -8,7 +8,9 @@
         "url": "https://www.npr.org/sections/goatsandsoda/2023/06/01/1179134749/a-pop-up-restaurant-in-kabul-is-run-by-women-for-women-the-taliban-is-watching",
         "imageSrc": "images/banowan-e-afghan.webp",
         "name": "Banowan-e-Afghan (2023-current)",
-        "location": "Kabul, Afghanistan"
+        "location": "Kabul, Afghanistan",
+        "tags": "women, kitchen",
+        "description": "Banowan-e-Afghan is a dine-in restaurant for women, run by women, a rarity in Taliban-controlled Afghanistan."
     },
     {
         "category": "Community or Organization, Mutual Aid",
@@ -19,7 +21,9 @@
         "url": "https://www.care.org/news-and-stories/our-whole-day-is-spent-in-hunger-how-community-kitchens-in-afghanistan-work-to-feed-families-in-need/#:~:text=The%20meal%20program%2C%20led%20by,drivers%2C%20shopkeepers%2C%20and%20families.",
         "imageSrc": "images/afghan_communityKitchen.webp",
         "name": "Afghanistan Community Kitchen (2023-current)",
-        "location": "Ghazni Province, Afghanistan"
+        "location": "Ghazni Province, Afghanistan",
+        "tags": "food sovereignty, food shortage, food insecurity, kitchen",
+        "description": "CARE-led Community kitchens in Afghanistan work to feed families in need. The cooks are community-based, and they prepare meals for their neighbors six days a week. These meals feed school children, drivers, shopkeepers, and families. (Source: CARE, 2024)"
     },
     {
         "category": "Protest",
@@ -30,7 +34,9 @@
         "url": "https://telegrafi.com/en/fermeret-e-qumeshtit-proteste-ne-lushnje-ankohen-per-uljen-e-cmimit-nderkohe-qe-fabrikat-e-perpunimit-rrisin-importet/",
         "imageSrc": "https://albaniandailynews.com/foto/2024/04/20240408204728_art.jpg",
         "name": "Milk Farmers Protest (2024)",
-        "location": "Albania"
+        "location": "Albania",
+        "tags":"trade and global flows, farmers, agriculture",
+        "description": "Over 1 million euros in 3 months go outside Albania for milk, while Albanian livestock farmers are treated unfairly and are not paid properly, Euronews Albania reports. (Source: Telegrafi, 2024)"
     },
     {
         "category": "Community or Organization, Mutual Aid",
