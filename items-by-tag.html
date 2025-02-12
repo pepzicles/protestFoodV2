@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items by Tag</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="index.html"><h1 class = "title">PROTEST FOOD</h1></a>
+    <h2 class = "description">An archive of all the ways food is related to advocacy, solidarity, resistance, strength and protest </h2>
+
+    <!-- BUTTONS -->
+    <div class="button-container">
+        <a href="index.html" class="button" >BROWSE</a>
+        <a href="topics.html" class="button" style = "background-color: #FFFA7C">TOPICS</a>
+        <a href="about.html" class="button">ABOUT</a>
+        <a href="resources.html" class="button">BOOK</a>
+        <a href="submit.html" class="button">SUBMIT</a>
+    </div>
+
+    <div class = "items-tagged-upperdiv">
+        <a href="topics.html" class="a-hover"> ← Back to topics </a>
+        <h1 class = "items-tagged-heading">TOPIC: <span id="tag-name"></span></h1>
+    </div>
+    
+    <div class="flex-container"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        $(document).ready(function () {
+            const urlParams = new URLSearchParams(window.location.search);
+            const tag = urlParams.get("tag");
+            if (tag) {
+                $("#tag-name").text(tag); // Display the selected tag
+
+                // Load data from the JSON and filter by the tag
+                $.getJSON("data.json", function (data) {
+                    filterItemsByTag(data, tag);
+                });
+            }
+
+            function filterItemsByTag(data, tag) {
+                const filteredItems = data.filter(item => {
+                    // Ensure that item.tags is either a string or an array and compare
+                    if (item.tags) {
+                        if (typeof item.tags === 'string') {
+                            return item.tags.split(",").map(t => t.trim()).includes(tag.trim());
+                        } else if (Array.isArray(item.tags)) {
+                            return item.tags.includes(tag.trim());
+                        }
+                    }
+                    return false;
+                });
+
+                // Render filtered items
+                const container = $(".flex-container");
+                container.empty(); // Clear existing items
+
+                filteredItems.forEach(item => {
+                    const flexItem = `
+                        <div class="flex-item">
+                            <a href="item.html?id=${item.id}" class = "a-hover">
+                                <img src="${item.imageSrc}" alt="${item.name}">
+                                <h3>${item.name}</h3>
+                            </a>
+                            <p>${item.location}</p>
+                        </div>
+                    `;
+                    container.append(flexItem);
+                });
+            }
+        });
+    </script>
+</body>
+</html>

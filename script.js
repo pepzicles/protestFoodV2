@@ -4,6 +4,21 @@ $(document).ready(function () {
         renderFlexItems(data);
     });
 
+    //load topics from json file
+    if (window.location.pathname.includes("topics.html")) {
+        console.log("Topics page detected. Loading topics..."); // Debugging log
+
+        $.getJSON("data.json")
+            .done(function (data) {
+                console.log("Data loaded successfully:", data); // Debugging log
+                generateTopics(data);
+            })
+            .fail(function (jqxhr, textStatus, error) {
+                console.error("Error loading JSON:", textStatus, error);
+            });
+    }
+
+
     // Render flex items
     function renderFlexItems(items) {
         const container = $(".flex-container");
@@ -17,7 +32,7 @@ $(document).ready(function () {
                     data-scale="${item.scale}" 
                     data-country="${item.country}" 
                     data-region="${item.region}">
-                    <a href="item.html?id=${index}">
+                    <a href="item.html?id=${index}" class = "a-hover">
                         <img src="${item.imageSrc}" alt="${item.name}">
                         <h3>${item.name}</h3>
                     </a>
@@ -129,26 +144,30 @@ $(document).ready(function () {
 
     
     //CLEAR filters
-    document.getElementById("clear-filters").addEventListener("click", function () {
-        // Uncheck all checkboxes
-        document.querySelectorAll("input[type='checkbox']").forEach((checkbox) => {
-            checkbox.checked = false;
-        });
+    const clearFiltersButton = document.getElementById("clear-filters");
+    if (clearFiltersButton) {
+        clearFiltersButton.addEventListener("click", function () {
+            // Uncheck all checkboxes
+            document.querySelectorAll("input[type='checkbox']").forEach((checkbox) => {
+                checkbox.checked = false;
+            });
 
-        // Uncheck all radio buttons
-        document.querySelectorAll("input[type='radio']").forEach((radio) => {
-            radio.checked = false;
-        });
+            // Uncheck all radio buttons
+            document.querySelectorAll("input[type='radio']").forEach((radio) => {
+                radio.checked = false;
+            });
 
-        // Clear all input fields (e.g., search bars)
-        document.querySelectorAll("input[type='text']").forEach((textInput) => {
-            textInput.value = "";
-        });
+            // Clear all input fields (e.g., search bars)
+            document.querySelectorAll("input[type='text']").forEach((textInput) => {
+                textInput.value = "";
+            });
 
-        // Optionally trigger any updates to the UI or data display
-        // For example:
-        updateContentDisplay();
-    });
+            // Trigger UI or data display updates
+            updateContentDisplay();
+        });
+    } else {
+        console.warn("clear-filters button not found.");
+    }
 
 
     // Initialize with all items shown
@@ -156,4 +175,36 @@ $(document).ready(function () {
 });
 
 
+
 // Search by topic- Tags function
+function generateTopics(data) {
+    let tagsSet = new Set();
+
+    data.forEach(item => {
+        if (item.tags) {
+            if (typeof item.tags === 'string') {
+                item.tags.split(",").forEach(tag => {
+                    tagsSet.add(tag.trim());
+                });
+            } else if (Array.isArray(item.tags)) {
+                item.tags.forEach(tag => {
+                    tagsSet.add(tag.trim());
+                });
+            } else {
+                console.warn("Unexpected tags format:", item.tags); // Log unexpected formats
+            }
+        }
+    });
+
+    let uniqueTags = Array.from(tagsSet).sort(); // Sort the tags alphabetically
+    const topicsContainer = $(".topics-container");
+    topicsContainer.empty(); 
+
+    uniqueTags.forEach(tag => {
+        let tagButton = `<a href="items-by-tag.html?tag=${encodeURIComponent(tag)}" class="topics-button">${tag.toUpperCase()}</a>`;
+        topicsContainer.append(tagButton);
+    });
+
+    console.log("Tags generated:", uniqueTags); // Debugging log
+}
+
