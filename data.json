@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "category": "Restaurant",
         "date": "2024",
         "scale": "Ground-Up or Local",
@@ -13,6 +14,7 @@
         "description": "Banowan-e-Afghan is a dine-in restaurant for women, run by women, a rarity in Taliban-controlled Afghanistan."
     },
     {
+        "id": 2,
         "category": "Community or Organization, Mutual Aid",
         "date": "2024",
         "scale": "State",
@@ -26,6 +28,7 @@
         "description": "CARE-led Community kitchens in Afghanistan work to feed families in need. The cooks are community-based, and they prepare meals for their neighbors six days a week. These meals feed school children, drivers, shopkeepers, and families. (Source: CARE, 2024)"
     },
     {
+        "id": 3,
         "category": "Protest",
         "date": "2024",
         "scale": "National",
@@ -39,6 +42,7 @@
         "description": "Over 1 million euros in 3 months go outside Albania for milk, while Albanian livestock farmers are treated unfairly and are not paid properly, Euronews Albania reports. (Source: Telegrafi, 2024)"
     },
     {
+        "id": 4,
         "category": "Community or Organization, Mutual Aid",
         "date": "2024",
         "scale": "Transnational",
@@ -47,9 +51,13 @@
         "url": "https://mel.cgiar.org/projects/mountainher#page-top",
         "imageSrc": "https://mel.cgiar.org/graph/getcititionimage/report_file_id/39993",
         "name": "MountainHER (2022 - Current)",
-        "location": "Algeria, Croatia, Italy, Lebanon, Morocco, Tunisia"
+        "location": "Algeria, Croatia, Italy, Lebanon, Morocco, Tunisia",
+        "tags":"women, farmers",
+        "description": "MountainHER wants to put rural women front and center as the true drivers for social and economic progress in remote mountain communities of Algeria, Croatia, Italy, Lebanon, Morocco and Tunisia."
+
     },
     {
+        "id": 5,
         "category": "Community or Organization, Mutual Aid, Protest",
         "date": "2024",
         "scale": "National",
@@ -58,9 +66,12 @@
         "url": "https://www.opendemocracy.net/en/5050/women-argentina-food-crisis-hunger-soup-kitchens-cook-common-pots-milei/",
         "imageSrc": "https://cdn2.opendemocracy.net/media/images/rio_cuarto.width-2050.jpg",
         "name": "Polo Obrero Picket Movement (1964 - current)",
-        "location": "Argentina"
+        "location": "Argentina",
+        "tags":"revolution",
+        "description": "The Workers' Party of Marxist Unification (Partido Obrero de Unificación Marxista, POUM) was a Spanish communist party, independent from Moscow, which, although numerically small, played an important role in the Spanish civil war and revolution of 1936-9. It is often incorrectly described as Trotskyist. Source: libcom.org"  
     },
     {
+        "id": 6,
         "category": "Community or Organization, Mutual Aid",
         "date": "2024",
         "scale": "Transnational",
@@ -69,9 +80,12 @@
         "url": "https://lapoderosa.lat/en/",
         "imageSrc": "https://cdn2.opendemocracy.net/media/images/8M_-_Ley_Salario_Cocineras-5.width-2050.jpg",
         "name": "La Poderosa (2004 - Current)",
-        "location": "Argentina"
+        "location": "Argentina",
+        "tags":"women, lgbtq+, kitchen, decolonization",
+        "description": "An independent, grassroots social organization that represents various territories in impoverished neighborhoods in Latin America. They use the participatory methodology (inspired by Paulo Freire) as a tool for transformation and integration. In each neighborhood they organize activities that respond to the needs of that community. This includes supporting 150 soup kitchens, running 75 cooperatives, community health rooms, women and queer houses and a community sports center. Source: La Poderosa"
     },
-    {
+    {   
+        "id": 7,
         "category": "Community or Organization, Mutual Aid",
         "date": "2024",
         "scale": "Transnational",
@@ -80,9 +94,12 @@
         "url": "https://peoplesdispatch.org/2024/08/30/thousands-of-people-in-us-send-800-tons-of-urgently-needed-flour-to-cuba/",
         "imageSrc": "images/breadForOurNeighbours.jpg",
         "name": "Let Cuba Live: Bread For Our Neighbours (2024)",
-        "location": "USA, Cuba"
+        "location": "USA, Cuba",
+        "tags":"trade and global flows, food shortage, bread, humanitarian aid",
+        "description": "The People's Forum USA launched an emergency campaign to send 800 tons of wheat flour to Cuba as legal humanitarian aid, as the 66-year-long U.S. economic embargo on Cuba continues."
     },
     {
+        "id": 8,
         "category": "Community or Organization, Mutual Aid",
         "date": "2018",
         "scale": "State",
@@ -91,9 +108,12 @@
         "url": "https://foodagainstfascism.wordpress.com/",
         "imageSrc": "https://www.concordiafoodcoalition.com/wp-content/uploads/2023/06/21427497_307065119769170_6297576554318804454_o-1024x681.jpg",
         "name": "Food against Facism (2017 - 2018)",
-        "location": "Montreal, Quebec, Canada"
+        "location": "Montreal, Quebec, Canada",
+        "tags": "kitchen, food insecurity, food sovereignty",
+        "description": "Food Against Fascism was a non-profit, community project that prepares and distributes free, hot, healthy meals every Saturday 12pm at De l’Eglise Metro, Galt and Wellingtion Verdun Montreal. Source: Food against Facism"
     },
     {
+        "id": 9,
         "category": "Food Item, Protest",
         "date": "2019",
         "scale": "Ground-Up or Local",
@@ -102,9 +122,12 @@
         "url": "https://www.atlasobscura.com/articles/extradition-hong-kong-mooncakes",
         "imageSrc": "images/protestMooncakes.webp",
         "name": "Protest Mooncakes (2019)",
-        "location": "Wah Yee Tang Cake Shop, Hong Kong"
+        "location": "Wah Yee Tang Cake Shop, Hong Kong",
+        "tags":"bakery",
+        "description": "During Hong Kong's 2019 Anti-Extradition Protests, Wah Yee Tang Cake Shop, a family business that turns 35 this year, recently put mooncakes with protest messages on its menu, along with several other fiery options. Patrons can pick up handmade treats stamped with messages such as “No withdrawal, no dismissal” (不撤不散), “Hongkonger” (香港人), and “Freedom hi” (自由西). Aside from being beautiful (and no doubt, tasty), they are meant to inspire protestors fighting a controversial extradition bill. Source: Claire Voon for Atlas Obscura"
     },
     {
+        "id": 10,
         "category": "Food Item, Protest",
         "date": "2020",
         "scale": "Ground-Up or Local",
@@ -113,9 +136,13 @@
         "url": "https://www.scmp.com/lifestyle/food-drink/article/3085568/ice-cream-cry-peppercorn-flavour-tear-gas-gelato-packs-some",
         "imageSrc": "images/tearGasIceCream.webp",
         "name": "Tear Gas Ice Cream (2020)",
-        "location": "Hong Kong"
+        "location": "Hong Kong",
+        "tags":"",
+        "description": "Sogno Gelato shop displays fierce anti-government protest art and memorabilia for sale. They also sell Tear Gas Ice Cream, created months after mass protests began in Hong Kong, initially in opposition to a change in extradition law. Asked why he launched the tear gas flavour, Chung, 32, said: “Which Hongkonger hasn’t tasted tear gas? This useless government fired so many tear gas canisters, even at nursing homes. As a Hongkonger we’ve had tear gas in Mong Kok, Tsim Sha Tsui, Tsuen Wan … everywhere. The government fired more than 16,000 rounds of tear gas at us.” (Source: Bernice Chan, South China Morning Post, 22 May 2020)",
+        "contributed-by": "Emily Li"
     },
     {
+        "id": 11,
         "category": "Protest",
         "date": "1930",
         "scale": "National",
@@ -124,9 +151,12 @@
         "url": "https://www.history.com/topics/asian-history/salt-march",
         "imageSrc": "images/saltMarch.jpg",
         "name": "Salt March (1930)",
-        "location": "India"
+        "location": "India",
+        "tags":"decolonization",
+        "description": "The Salt March, which took place from March to April 1930 in India, was an act of civil disobedience led by Mohandas Gandhi to protest British rule in India. During the march, thousands of Indians followed Gandhi from his religious retreat near Ahmedabad to the Arabian Sea coast, a distance of some 240 miles. (Source: History.com)"
     },
     {
+        "id": 12,
         "category": "Protest",
         "date": "2021",
         "scale": "National",
@@ -135,9 +165,13 @@
         "url": "https://www.npr.org/2021/09/27/1040834711/indias-farmers-renew-protests-challenging-modi-government",
         "imageSrc": "images/farmersProtestIndia.jpg",
         "name": "Farmers Protest (2020-2021)",
-        "location": "India"
+        "location": "India",
+        "tags":"farmers, agriculture",
+        "description": "The Farmers’ Protest of 2020-2021 in India was a historic movement that drew widespread attention and support, primarily from farmer communities across the country. The protest, cantered around the capital city of Delhi, unfolded against the backdrop of contentious agricultural reforms introduced by the Indian government. Source: Ritimo"
+
     },
     {
+        "id": 13,
         "category": "Community or Organization",
         "date": "2024",
         "scale": "Ground-Up or Local",
@@ -146,9 +180,12 @@
         "url": "https://bakudapan.com/en/",
         "imageSrc": "images/Bakudapan.jpg",
         "name": "Bakudapan Food Study Group (2020-current)",
-        "location": "Indonesia"
+        "location": "Indonesia",
+        "tags":"study group",
+        "description": "BAKUDAPAN is an Indonesian study group that discuss ideas about food. The word BAKUDAPAN itself is inspired by “bakudapa”, which comes from Manadonese (North Sulawesi) language meaning to “meet”, and also “kudapan” which is a kind of snack that is usually served when there are activities such as a meeting, visiting, and even when hanging out. Therefore, “bakudapan” can be translated as eating snacks while meeting. Through this name, they would like to meet with people who have an interest in food. Source: Bakudapan Study Group"
     },
     {
+        "id": 14,
         "category": "Food Item, Restaurant",
         "date": "2010",
         "scale": "National",
@@ -157,9 +194,12 @@
         "url": "https://www.npr.org/sections/thesalt/2016/07/18/483715410/give-chickpeas-a-chance-why-hummus-unites-and-divides-the-mideast",
         "imageSrc": "images/hummusWars.webp",
         "name": "World's Largest Hummus (2010)",
-        "location": "Lebanon"
+        "location": "Lebanon",
+        "tags":"decolonization",
+	    "description": "In October 2009, Lebanon reached a world record for a two-ton hummus plate. A few months later, Israel (occupied Palestine) broke Lebanon’s record with a four-ton dish, insisting to claim the dish theirs. Both countries have been trying to claim it as their own ‘national dish’, this was known as “The Hummus Wars.” To settle the argument, Lebanon broke the record again in May 2010, aiming to prove the dish is Lebanese. (Source: Souad Lazkani for 961, May 13 2020)"
     },
     {
+        "id": 15,
         "category": "Community or Organization",
         "date": "2024",
         "scale": "National",
@@ -168,9 +208,13 @@
         "url": "https://oranglaut.sg/",
         "imageSrc": "images/orangLaut.webp",
         "name": "Orang Laut",
-        "location": "Malaysia, Indonesia, Singapore"
+        "location": "Malaysia, Indonesia, Singapore",
+        "tags":"food sovereignty, decolonization, indigenuity",
+		"description": "Orang Laut (Malay for “sea people” or “people of the sea”) were nomadic sea gypsies organised into suku (divisions). They occupied the maritime zone surrounding the Strait of Melaka. During the period when the British thought Singapore was uninhabited, the Orang Laut had been using the island as one of the places to live in. As skilled mariners adept at controlling the seas, the Orang Laut played an important role in Malay political history. Source: National Library Board: Orang Laut"
+
     },
     {
+        "id": 16,
         "category": "Food Item, Protest",
         "date": "2021",
         "scale": "Ground-Up or Local",
@@ -179,9 +223,12 @@
         "url": "https://www.youtube.com/watch?v=5r2oQoqncFI",
         "imageSrc": "images/MontLoneYayPaw.jpg",
         "name": "Mont Lone Yay Paw",
-        "location": "Myanmar"
+        "location": "Myanmar",
+        "tags":"revolution",
+		"description": "Mont Lone Yay Paw is a traditional snack from Myanmar that was used in an anti-coup protest in April 2021. They are made from glutinous rice balls with palm sugar."
     },
     {
+        "id": 17,
         "category": "Community or Organization, Protest",
         "date": "2024",
         "scale": "Transnational",
@@ -190,9 +237,12 @@
         "url": "https://mediamanipulation.org/case-studies/milk-tea-alliance-meme-war-transnational-activism",
         "imageSrc": "images/milkTeaAlliance.jpg",
         "name": "Milk Tea Alliance (2020-current)",
-        "location": "Myanmar, Thailand, Taiwan, Indonesia, Philippines, Malaysia, Japan, Hong Kong"
+        "location": "Myanmar, Thailand, Taiwan, Indonesia, Philippines, Malaysia, Japan, Hong Kong",
+		"tags":"",
+		"description": "#MilkTeaAlliance is a pan-Asia online civil solidarity movement that began in April 2020, but observers identified two distinct elements driving this movement: anti-China sentiment and a pro-democracy spirit. Source: Austin Horng-En Wang and Adrian Rauchfleisch, in their publication, 'Understanding the #MilkTeaAlliance Movement'"
     },
     {
+        "id": 18,
         "category": "Practice or Custom",
         "date": "1860",
         "scale": "Transnational",
@@ -201,9 +251,13 @@
         "url": "https://blurredbylines.com/blog/west-african-slaves-rice-hair-maroon-french-guiana-colonialism/",
         "imageSrc": "images/blackRice.jpg",
         "name": "Braiding Rice Seeds into Hair (1670 - 1860)",
-        "location": "West Africa"
+        "location": "West Africa",
+		"tags":"slave trade, food sovereignty",
+		"description": "During the African slave trade, enslaved peoples found ways to retain their agency, and keep themselves and their cultures alive in ways that were not widely acknowledged by Western historians until the late 2000s. As Dutch slave owners forcibly transported people from West Africa to colonies in modern-day Brazil and throughout the Americas, some African women, namely rice farmers, braided rice seeds into their hair as a means for survival of themselves and the culture of their homeland. (Source: Shari Rose for Blurred Bylines, 2021)",
+        "contributed-by": "Yuvan"
     },
     {
+        "id": 19,
         "category": "Community or Organization, Mutual Aid",
         "date": "1980",
         "scale": "National",
@@ -213,9 +267,11 @@
         "imageSrc": "images/freeBreakfastProgram.jpg",
         "name": "Free Breakfast Program (1969 - 1980)",
         "location": "USA",
-        "tags": "Civil Rights Movement, Black Panther Party"
+        "tags": "civil rights movement, black sovereignty",
+		"description": "The Panthers started the Free Breakfast Program because hunger and poverty made it difficult for many poor black children to learn in school."
     },
     {
+        "id": 20,
         "category": "Community or Organization, Mutual Aid",
         "date": "2024",
         "scale": "National",
@@ -225,9 +281,11 @@
         "imageSrc": "https://www.soulfirefarm.org/wp-content/uploads/2020/10/Onion-Harvest-9.10.2016-Resized.png",
         "name": "Soul Fire Farm (2010 - Current)",
         "location": "Albany, NY, USA",
-        "tags": ""
+        "tags": "",
+        "description":"Soul Fire Farm is an Afro-Indigenous centered community farm and training center dedicated to uprooting racism and seeding sovereignty in the food system. Source: Soul Fire Farm"
     },
     {
+        "id": 21,
         "category": "Community or Organization, Mutual Aid",
         "date": "2024",
         "scale": "Ground-Up or Local",
@@ -237,9 +295,11 @@
         "imageSrc": "https://civileats.com/wp-content/uploads/2023/05/230510-black-farmer-fund-food-justice-sovereignty-urban-farming-community-local-food-6-Big-Dream-Farm-credit-Jared-Davis.jpg",
         "name": "Black Farmer Fund (2020 - Current)",
         "location": "Northeast states, USA",
-        "tags": ""
+        "tags": "food Sovereignty, farmers, black sovereignty, agriculture",
+        "description": "Black Farmer Fund is driven by their unwavering commitment to empowering black farmers and fostering community health and wealth. They believe that a thriving AND SUSTAINABLE food system is not just essential for the WELLNESS OF OUR PEOPLE but also for THE PLANET. Source: Black Farmer Fund"
     },
     {
+        "id": 22,
         "category": "Community or Organization, Mutual Aid",
         "date": "2024",
         "scale": "Ground-Up or Local",
@@ -249,9 +309,11 @@
         "imageSrc": "https://images.squarespace-cdn.com/content/v1/570463a0cf80a178dae565ac/25369ebe-f10d-463a-855f-d3e5be0e5770/PKCSTREETS+%2816%29.jpg?format=2500w",
         "name": "People's Kitchen Collective (Current)",
         "location": "Oakland, California, USA",
-        "tags": []
+        "tags": "food sovereignty, study group",
+        "description": "People's Kitchen Collective (PKC) works at the intersection of art and activism as a food-centered political education project. Based in Oakland, California, their creative practices reflect the diverse histories and backgrounds of our crew. Written in their families' recipes are the maps of our migrations and the stories of our resilience. It is from this foundation that they create immersive experiences that honor the shared struggles of our people. They believe in radical hospitality as a strategy to address the urgent social issues of our time. Source: People's Kitchen Collective"
     },
     {
+        "id": 23,
         "category": "Community or Organization, Mutual Aid",
         "date": "2024",
         "scale": "Transnational",
@@ -260,9 +322,12 @@
         "url": "https://foodnotbombs.net/new_site/",
         "imageSrc": "images/foodNotBombs.jpg",
         "name": "Food Not Bombs (1980 - current)",
-        "location": "USA"
+        "location": "USA",
+		"tags":"free food, food shortage, food insecurity, vegetarian/vegan",
+		"description": "Food Not Bombs is an all-volunteer movement that recovers food that would otherwise be discarded, and shares free vegan and vegetarian meals with the hungry in over 1,000 cities in 65 countries in protest to war, poverty, and destruction of the environment. Source: Food Not Bombs"
     },
     {
+        "id": 24,
         "category": "Community or Organization, Mutual Aid",
         "date": "2024",
         "scale": "National",
@@ -271,9 +336,12 @@
         "url": "https://blackchurchfoodsecurity.net/",
         "imageSrc": "images/blackChurchFoodSecurity.jpg",
         "name": "Black Church Food Security Network (2015 - current)",
-        "location": "Baltimore, MD, USA"
+        "location": "Baltimore, MD, USA",
+		"tags":"food Sovereignty, agriculture, religion, gardens, black sovereignty",
+		"description": "Black Church Food Security Network helps black churches use their assets to establish gardens on their lands, host miniature farmer's markets and buy wholesale from black farmers. Source: Black Church Food Security Network"
     },
     {
+        "id": 25,
         "category": "Community or Organization, Mutual Aid",
         "date": "2024",
         "scale": "State",
@@ -282,9 +350,12 @@
         "url": "https://www.fig-nyc.org/about-fig",
         "imageSrc": "https://images.squarespace-cdn.com/content/v1/6065fcce90516a4881d7d086/34f30df8-0fd1-4582-af5c-078ab32ba770/FIG_GROUP.jpg",
         "name": "FIG NYC (2021 - current)",
-        "location": "NYC, NY, USA"
+        "location": "NYC, NY, USA",
+		"tags":"decolonization, study group, food sovereignty",
+		"description": "A grassroots collective working to transform the food system. FIG members are food workers committed to total transformation of the food system, from their home in New York / Lenapehoking and beyond. They envision a food future for all people where equity, sustainability, and community control are baked into the recipe — from New York City to the Hudson Valley, from Borikén to Palestine."
     },
     {
+        "id": 26,
         "category": "Community or Organization, Protest",
         "date": "2024",
         "scale": "State",
@@ -293,9 +364,12 @@
         "url": "https://www.streetvendor.org/",
         "imageSrc": "images/streetVendorProject.jpg",
         "name": "Street Vendor Project (2001 - current)",
-        "location": "New York City, USA"
+        "location": "New York City, USA",
+		"tags":"street vendors",
+		"description": "The Street Vendor Project is a membership-based project with more than 2,000 vendor members who are working together to create a vendors’ movement for permanent change. They advocate for the rights of street vendors in NYC. Source: Street Vendor Project"
     },
     {
+        "id": 27,
         "category": "Community or Organization, Mutual Aid",
         "date": "1960",
         "scale": "National",
@@ -304,9 +378,12 @@
         "url": "https://www.atlasobscura.com/articles/what-is-a-shoebox-lunch",
         "imageSrc": "images/shoeboxLunches.webp",
         "name": "Shoebox Lunches (1890s - 1960s)",
-        "location": "USA"
+        "location": "USA",
+		"tags":"black sovereignty, travel",
+		"description": "During Jim Crow, black travelers frequently carried shoebox meals as a means of staying safe when a Green Book site was not readily available. Although the Green Book provided safe places to eat, restaurants and safe places to stop could be few and far between. To keep their families safe, black women prepared shoe box meals. These meals frequently packaged in shoe boxes held foods that were less likely to spoil or require utensils. Meals generally included fried chicken, boiled or deviled eggs, fruit and vegetables, and pound cake. Source: Historic Magnolia Farm"
     },
     {
+        "id": 28,
         "category": "Restaurant",
         "date": "2017",
         "scale": "Ground-Up or Local",
@@ -315,9 +392,12 @@
         "url": "https://www.conflictkitchen.org/",
         "imageSrc": "images/conflictKitchen.jpg",
         "name": "Conflict Kitchen (2010-2017)",
-        "location": "USA"
+        "location": "USA",
+		"tags":"decolonization",
+		"description": "Conflict Kitchen (2010-2017) was a restaurant that served cuisine from countries with which the United States was in conflict."
     },
     {
+        "id": 29,
         "category": "Community or Organization, Mutual Aid",
         "date": "2024",
         "scale": "National",
@@ -326,9 +406,12 @@
         "url": "https://nefoclandtrust.org/",
         "imageSrc": "images/NortheastFarmers.webp",
         "name": "Northeast Farmers of Color Land Trust (2018 - current)",
-        "location": "USA"
+        "location": "USA",
+		"tags":"farmers, agriculture, food sovereignty",
+		"description": "The Northeast Farmers of Color Land Trust is a BIPOC-led organization dedicated to positively impacting the health and wellness outcomes of BIPOC communities and the lands and non-human beings in the Northeast region of what is now known as the United States"
     },
     {
+        "id": 30,
         "category": "Restaurant, Mutual Aid",
         "date": "2024",
         "scale": "Ground-Up or Local",
@@ -337,9 +420,13 @@
         "url": "https://lamorada.nyc/",
         "imageSrc": "images/laMorada.webp",
         "name": "La Morada Mutual Aid (2008-current)",
-        "location": "USA"
+        "location": "USA",
+		"tags":"food sovereignty, decolonization",
+		"description": "La Morada aims to reclaim Sanctuary and (Food) Sovereignty through Mutual Aid as the Practice of Urban Indigeneity and a Poetics of Liberation.  Establish in 2009 in the South Bronx (Source: Open Collective)",
+        "contributed-by": "Alexandra Delano"
     },
     {
+        "id": 31,
         "category": "Community or Organization, Mutual Aid",
         "date": "2012",
         "scale": "Ground-Up or Local",
@@ -348,9 +435,12 @@
         "url": "https://www.indiegogo.com/projects/everybody-s-kitchen#/updates/all",
         "imageSrc": "images/everybodysKitchen.webp",
         "name": "Everybody's Kitchen Bus (1992 - 2012)",
-        "location": "USA"
+        "location": "USA",
+		"tags":"free food, disaster relief, food insecurity, kitchen",
+		"description": "A free kitchen on wheels. Birthed in 1992, Everybody’s kitchen bus has been gathering, cooking and distributing food and resources, networking, connecting and encouraging community. They believe everyone has the human right to eat, whether you have a dime in your pocket or not. There is no hierarchy, no administration cost to everything they do. Source: William Bates for Everybody's Kitchen Bus in IndieGo, Jul 27, 2012"
     },
-    {
+    {   
+        "id": 32,
         "category": "Community or Organization, Mutual Aid",
         "date": "2024",
         "scale": "Ground-Up or Local",
@@ -359,9 +449,12 @@
         "url": "https://viviensansour.com/Palestine-Heirloom",
         "imageSrc": "images/palestineHeirloom.jpg",
         "name": "Palestine Heirloom Seed Library (2014-current)",
-        "location": "Palestine"
+        "location": "Palestine",
+		"tags":"decolonization, food sovereignty, agriculture",
+		"description": "The Palestine Heirloom Seed Library (PHSL) is an attempt to recover ancient seeds and their stories and put them back into people’s hands. The PHSL is an interactive art and agriculture project that aims to provide a conversation for people to exchange seeds and knowledge, and to tell the stories of food and agriculture that may have been buried away and waiting to sprout like a seed. It is also a place where visitors may feel inspired by the seed as a subversive rebel, of and for the people, traveling across borders and checkpoints to defy the violence of the landscape while reclaiming life and presence. (Source: Vivien Sansour, Palestina Heirloom Seed Library)"
     },
     {
+        "id": 33,
         "category": "Community or Organization",
         "date": "2012",
         "scale": "Ground-Up or Local",
@@ -370,20 +463,26 @@
         "url": "https://justworldbooks.com/books/the-gaza-kitchen-third-edition/",
         "imageSrc": "images/gazaKitchen.jpg",
         "name": "The Gaza Kitchen (2012)",
-        "location": "Palestine"
+        "location": "Palestine",
+		"tags":"decolonization, food sovereignty, genocide",
+		"description": "This timely update of a much-loved, award-winning cookbook shares with readers the little-known but distinctive cuisine of the Gaza region of Palestine, presenting 130 recipes collected by the authors in Gaza. This edition includes new stories, recipes, and photos gathered during a late-2019 visit to Gaza by co-author Laila El-Haddad. (Source: Just World Books)"
     },
     {
+        "id": 34,
         "category": "Protest",
         "date": "2016",
         "scale": "National",
         "country": "Hong Kong",
         "region": "Eastern and South-Eastern Asia",
         "url": "https://qz.com/612813/hong-kongs-fishball-revolution-is-about-a-lot-more-than-just-street-food",
-        "imageSrc": "images/fishballRevolution.webp",
+        "imageSrc": "https://i0.wp.com/ketagalanmedia.com/wp-content/uploads/2016/02/12650837_10208051530153341_5314278630658699821_n.jpg?resize=960%2C640&ssl=1",
         "name": "The Fishball Revolution (2016)",
-        "location": "Hong Kong"
+        "location": "Hong Kong",
+		"tags":"street vendors",
+		"description": "The protests began after Hong Kong police tried to issue tickets to unlicensed street food sellers in Mong Kok, a working class neighborhood. The violence appears to be borne out of a deep-seated mistrust about the direction Hong Kong is headed, under the leadership of a government that too often looks like it listens to Beijing more than its own people. Source: Richard Macauley and Heather Timmons for Quartz"
     },
     {
+        "id": 35,
         "category": "Community or Organization, Mutual Aid",
         "date": "2024",
         "scale": "Transnational",
@@ -392,9 +491,12 @@
         "url": "https://afsafrica.org/about-us/",
         "imageSrc": "images/AFSA.jpg",
         "name": "Alliance for Food Sovereignty in Africa (AFSA) (2008-current)",
-        "location": "South Africa"
+        "location": "South Africa",
+		"tags":"food sovereignty",
+		"description": "The Alliance for Food Sovereignty in Africa (AFSA) is a broad alliance of different civil society actors that are part of the struggle for food sovereignty and agroecology in Africa. These include: African farmers’ organizations, African NGO networks, specialist African NGOs, consumer movements in Africa, international organizations which support the stance of AFSA, and individuals. Its members represent smallholder farmers, pastoralists, hunter/gatherers, indigenous peoples; faith based institutions, and environmentalists from across Africa.  It is a network of networks and currently with 30 active members. (Alliance for Food Sovereignty in Africa, 2019)"
     },
-    {
+    { 
+        "id": 36,
         "category": "Protest",
         "date": "2011",
         "scale": "Transnational",
@@ -403,8 +505,197 @@
         "url": "https://www.aljazeera.com/features/2020/12/17/remembering-mohamed-bouazizi-his-death-triggered-the-arab",
         "imageSrc": "images/arabSpring.webp",
         "name": "Mohamed Bouazizi, Food Vendor that catalysed the Arab Spring (2011)",
-        "location": "Tunisia"
+        "location": "Tunisia",
+		"tags":"arab spring, revolution, street vendors",
+		"description": "Mohamed Bouazizi (born March 29, 1984, Sidi Bouzid, Tunisia—died January 4, 2011, Ben Arous, Tunisia) was a Tunisian street vendor whose self-immolation after being harassed by municipal officials catalyzed the Revolution for Dignity in Tunisia and helped inspire a wider pro-democracy protest movement in the Middle East and North Africa known as the Arab Spring. (Britannica,  Jan 1, 2025)"
+    },
+    { 
+        "id": 37,
+        "category": "Community or Organization, Mutual Aid",
+        "date": "2024",
+        "scale": "Ground-Up or Local",
+        "country": "USA",
+        "region": "Europe and Northern America",
+        "url": "https://www.farmschoolnyc.org/",
+        "imageSrc": "https://images.squarespace-cdn.com/content/v1/61b5943ef9cdfc648009c789/1639301245952-9GSFIA33VGRXJDXWW9WJ/Screen+Shot+2021-12-12+at+1.13.55+AM.png?format=1500w",
+        "name": "Farm School NYC (2007 - current)",
+        "location": "NYC, NY, USA",
+		"tags":"food Sovereignty, farmers, agriculture",
+		"description": "Farm School NYC's mission is to train NYC residents in urban agriculture, build self-reliant communities, and inspire positive local action around food sovereignty and social, economic, and racial justice. Source: Farm School NYC"
+    },
+    { 
+        "id": 38,
+        "category": "Community or Organization, Mutual Aid",
+        "date": "2024",
+        "scale": "Ground-Up or Local",
+        "country": "USA",
+        "region": "Europe and Northern America",
+        "url": "https://corbinhill-foodproject.org/",
+        "imageSrc": "https://foodmedcenter.org/wp-content/uploads/Farm-Share-Brosis-and-CHFP-staff-scaled.jpeg",
+        "name": "Corbin Hill Food Project (2009 - current)",
+        "location": "NYC, NY, USA",
+		"tags":"food sovereignty",
+		"description": "Corbin Hill's mission is to disrupt and innovate within the extractive and oppressive food system and deal in the realities that face our communities as it relates to food access, food justice and food sovereignty. Source: Corbin Hill Food Project"
+    },
+    { 
+        "id": 39,
+        "category": "Community or Organization, Mutual Aid",
+        "date": "2024",
+        "scale": "State",
+        "country": "USA",
+        "region": "Europe and Northern America",
+        "url": "https://www.blackfarmersunited.org/",
+        "imageSrc": "https://images.squarespace-cdn.com/content/v1/5f3d8596b477a50244c90e68/1657729476781-9A5Q26HFBA230XC2ID8R/Black+farmer+tending+to+peppers.jpeg",
+        "name": "Black Farmers United (current)",
+        "location": "NY state, USA",
+		"tags":"food Sovereignty, black sovereignty, farmers, agriculture",
+		"description": "Black Farmers United aims to protect the legacy and ensure the future of Black farmers. They hold the power to radically change how black communities control access to safe, healthy food, and build a collective wealth and health in New York State. Source: Black Farmers United"
+    },
+    { 
+        "id": 40,
+        "category": "Mutual Aid, Protest",
+        "date": "2019",
+        "scale": "Ground-Up or Local",
+        "country": "Iraq",
+        "region": "Northern Africa and Western Asia",
+        "url": "https://www.youtube.com/watch?v=agAFzQ8p6fw&ab_channel=VoiceofAmerica",
+        "imageSrc": "https://bloximages.chicago2.vip.townnews.com/nwitimes.com/content/tncms/assets/v3/editorial/0/47/0475c56e-1b1f-500f-a2d8-cefa0556d802/5df92ade5c39d.image.jpg?resize=1200%2C808",
+        "name": "Food Served to Iraqi Protesters in Tahrir Square (2019)",
+        "location": "Baghdad",
+		"tags":"free food, kitchen",
+		"description": "In Baghdad’s Tahrir Square, there are the anti-government protesters demonstrating for a better future for Iraq, and there are the volunteers who feed them. From stuffed lamb and fish, to the giant pots of soups and rice, to the plates of lentils and other beans, there is no shortage of food to go around. Volunteers from the capital and southern provinces cook traditional dishes that reflect the country’s rich cuisine and bring protesters together. Source: AP News"
+    },
+    { 
+        "id": 41,
+        "category": "Mutual Aid, Protest",
+        "date": "2011",
+        "scale": "Ground-Up or Local",
+        "country": "Egypt",
+        "region": "Northern Africa and Western Asia",
+        "url": "https://lifeandthyme.com/food/tales-of-bread-and-unfinished-revolution-in-egypt/",
+        "imageSrc": "https://bloximages.chicago2.vip.townnews.com/nwitimes.com/content/tncms/assets/v3/editorial/0/47/0475c56e-1b1f-500f-a2d8-cefa0556d802/5df92ade5c39d.image.jpg?resize=1200%2C808",
+        "name": "Tales of Bread and Unfinished Revolution in Egypt (2011)",
+        "location": "Cairo",
+		"tags":"arab spring, revolution, food shortage, bread",
+		"description": "Baladi bread—a dense, round flatbread covered in bran—is the most common type of bread consumed in Egypt. Baladi bread also emerged as a central motif during the uprisings in Egypt a decade ago during the Arab Spring as shorthand for protesters’ demand for food. This bread is indicative of its storied history and political significance in the nation. Source: Marianne Dhenin for Life & Thyme, 6 April 2021"
+    },
+    { 
+        "id": 42,
+        "category": "Book",
+        "date": "2022",
+        "scale": "National",
+        "country": "Egypt",
+        "region": "Northern Africa and Western Asia",
+        "url": "https://www.dukeupress.edu/staple-security",
+        "imageSrc": "https://assets-us-01.kc-usercontent.com/f7ca9afb-82c2-002a-a423-84e111d5b498/f31f75e5-7719-4072-8914-9ec41628343a/978-1-4780-1852-0_pr.jpg?fm=webp&auto=format&lossless=true",
+        "name": "Staple Security: Bread and Wheat in Egypt (2022)",
+        "location": "Egypt",
+		"tags":"bread, food shortage, food insecurity, trade and global flows, revolution",
+		"description": "Egyptians often say that bread is life; most eat this staple multiple times a day, many relying on the cheap bread subsidized by the government. In Staple Security, Jessica Barnes explores the process of sourcing domestic and foreign wheat for the production of bread and its consumption across urban and rural settings. She traces the anxiety that pervades Egyptian society surrounding the possibility that the nation could run out of wheat or that people might not have enough good bread to eat, and the daily efforts to ensure that this does not happen. With rich ethnographic detail, she takes us into the worlds of cultivating wheat, trading grain, and baking, buying, and eating bread. Linking global flows of grain and a national bread subsidy program with everyday household practices, Barnes theorizes the nexus between food and security, drawing attention to staples and the lengths to which people go to secure their consistent availability and quality. (Source: Jessica Barnes for Staple Security, Duke University Press, September 2022)"
+    },
+    { 
+        "id": 43,
+        "category": "Community or Organization, Mutual Aid, Protest",
+        "date": "1955",
+        "scale": "Ground-Up or Local",
+        "country": "USA",
+        "region": "Europe and Northern America",
+        "url": "https://www.npr.org/sections/thesalt/2018/01/15/577675950/meet-the-fearless-cook-who-secretly-fed-and-funded-the-civil-rights-movement",
+        "imageSrc": "https://media.npr.org/assets/img/2018/01/12/ap_5603210211_wide-2403bf75ba1846520af521492cf3ba0cebcd526f.jpg?s=1100&c=85&f=webp",
+        "name": "Georgia Gilmore and The Club From Nowhere (1955)",
+        "location": "Montgomery, Alabama",
+		"tags":"black sovereignty, kitchen, civil rights movement",
+		"description": "Georgia Teresa Gilmore was an African-American woman from Montgomery, Alabama, who participated in the Montgomery bus boycott through her fund-raising organization, the Club from Nowhere, which sold food at Montgomery Improvement Association (MIA) mass meetings. Source: Maria Godoy for NPR, 15 Jan 2018",
+        "contributed-by": "Kia Gregory"
+    },
+    { 
+        "id": 44,
+        "category": "Protest",
+        "date": "2011",
+        "scale": "Individual, National",
+        "country": "India",
+        "region": "Central and Southern Asia",
+        "url": "https://www.bbc.com/news/world-south-asia-13022337.amp",
+        "imageSrc": "https://static01.nyt.com/images/2011/08/29/world/INDIA-2/INDIA-2-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
+        "name": "96-hour hunger strike by Kisan Baburao Hazare (2011)",
+        "location": "Bhingar, Maharashtra",
+		"tags":"hunger strike",
+		"description": "Kisan Baburao 'Anna' Hazare is an Indian social activist who led movements to promote rural development, increase government transparency, and investigate and punish corruption in public life. Hazare conducted a 12-day hunger strike from 5 - 17 April - to exert pressure on the Indian government to enact a stringent anti-corruption law. The fast led to nationwide protests in support. The fast ended a day after the government accepted Hazare's demands. Source: BBC News, 9 April 2011",
+        "contributed-by": "Krish"
+    },
+    { 
+        "id": 45,
+        "category": "Protest",
+        "date": "1773",
+        "scale": "Transnational",
+        "country": "USA",
+        "region": "Europe and Northern America",
+        "url": "https://www.britannica.com/event/Boston-Tea-Party",
+        "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Boston_Tea_Party_w.jpg/520px-Boston_Tea_Party_w.jpg",
+        "name": "Boston Tea Party (1773)",
+        "location": "Boston, Massachusetts",
+		"tags":"tea",
+		"description": "Boston Tea Party, (December 16, 1773), incident in which 342 chests of tea belonging to the British East India Company were thrown from ships into Boston Harbor by American patriots disguised as Mohawk Indians. The Americans were protesting both a tax on tea (taxation without representation) and the perceived monopoly of the East India Company. Source: Britannica, 2024",
+        "contributed-by": "Julia Daser"
+    },
+    { 
+        "id": 46,
+        "category": "Food Item",
+        "date": "2024",
+        "scale": "Ground-Up or Local",
+        "country": "Ukraine",
+        "region": "Europe and Northern America",
+        "url": "https://ukrainian-recipes.com/online-restaurant-with-holodomor-dishes.html",
+        "imageSrc": "https://ukrainian-recipes.com/wp-content/uploads/2022/07/9-600x359.png",
+        "name": "Online Memory Restaurant with Holodomor dishes (current)",
+        "location": "Ukraine",
+		"tags":"famine, genocide, war, soviet union",
+		"description": "Students of the Ukrainian Leadership Academy created the world’s first online memory restaurant with dishes cooked using the products that Ukrainians could find during the Holodomor of 1932-33. The project is meant to honor the memory of the innocent people who died during the famine. Source: Ukrainian Recipes, 2024",
+        "contributed-by": "Maiia Lysytska"
+    },
+    { 
+        "id": 47,
+        "category": "Restaurant",
+        "date": "2017",
+        "scale": "Ground-Up or Local, Transnational",
+        "country": "Ukraine",
+        "region": "Europe and Northern America",
+        "url": "https://www.adsoftheworld.com/campaigns/uncounted-since-1932",
+        "imageSrc": "https://archive.kyivpost.com/wp-content/uploads/2018/05/Holodomor-food-800x520.jpg",
+        "name": "Uncounted Since 1932 (2017)",
+        "location": "Ukraine, Belgium, Occupied Palestine/ Israel",
+		"tags":"famine, genocide, war, soviet union",
+		"description": "'UNCOUNTED Since 1932' was a pop-up restaurant by a group of Ukrainian students and activists that served dishes to the residents of Brussels, Belgium, aimed at raising awareness in Europe about Stalin-era famine in Ukraine in 1932-33, known as the Holodomor. The dishes served included soup made from pine cones, bread made from grass and pancakes made out of tree bark.The “uncounted” refers to people who died from the famine without being recorded, as the Soviet authorities kept the artificially-produced famine top-secret, both inside the country and abroad. Source: Kyiv Post, 2018",
+        "contributed-by": "Maiia Lysytska"
+    },
+    { 
+        "id": 48,
+        "category": "Food Item",
+        "date": "2022",
+        "scale": "National",
+        "country": "Ukraine",
+        "region": "Europe and Northern America",
+        "url": "https://www.weareukraine.info/special/38081-2/",
+        "imageSrc": "https://www.weareukraine.info/wp-content/uploads/2022/11/NOV11_resilience_222_4.jpg",
+        "name": "Watermelon as a symbol of Kherson’s liberation (2022)",
+        "location": "Ukraine",
+		"tags":"war, genocide",
+		"description": "During peacetime, watermelons played an important role in promoting tourism in the region. During the war, the watermelon became a symbol of the region’s liberation from Russian occupation. Because of the war, most Ukrainians were unable to taste Kherson watermelons this summer. Kherson watermelons were only marketed in the occupied territory in Ukraine. Watermelons taken from the Kherson region were also exported to Russia. Source: We are Ukraine, 2022",
+        "contributed-by": "Maiia Lysytska"
+    },
+    { 
+        "id": 49,
+        "category": "Book",
+        "date": "2015",
+        "scale": "National",
+        "country": "Kazakstan",
+        "region": "Central and Southern Asia",
+        "url": "https://www.hfg.org/grant_summaries/the-hungry-steppe-famine-violence-and-the-making-of-soviet-kazakstan/",
+        "imageSrc": "https://m.media-amazon.com/images/I/71olVmvl3-L._SL1350_.jpg",
+        "name": "The Hungry Steppe: Famine, Violence, and the Making of Soviet Kazakstan (2015)",
+        "location": "Kazakstan",
+		"tags":"famine, genocide, war, soviet union",
+		"description": "This book highlights the Kazakh famine of 1930-33 as one of the most heinous crimes of the Stanlinist regime- More than 1.5 million people perished, and the crisis transformed a territory the size of continental Europe. Yet, the story of this famine remained largely hidden from view, both in Kazakhstan and in the West. The book brings this largely unknown story to light and explores how this famine alters our understanding of Soviet modernization and nation-making. Source: Sarah Cameron for Harry Frank Guggenheim Foundation, 2015",
+        "contributed-by": "Maiia Lysytska"
     }
-    
-
 ]
