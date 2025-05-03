@@ -685,6 +685,21 @@
     },
     { 
         "id": 49,
+        "category": "Restaurant",
+        "date": "2024",
+        "scale": "Ground-Up or Local, Transnational",
+        "country": "Switzerland",
+        "region": "Europe and Northern America",
+        "url": "https://olivenoel-palaestina.ch/",
+        "imageSrc": "https://olivenoel-palaestina.ch/wp-content/uploads/2021/03/zweig_quer.jpg",
+        "name": "Olive oil from Palestine (current)",
+        "location": "Switzerland",
+		"tags":"war, genocide, economy",
+		"description": "'Campaign Olive Oil' is an association based in Zurich in accordance with the Swiss Civil Code. It imports olive oil from Palestine, for which the farmers are paid a fair price, and sells it in campaigns in Switzerland. The institution does not pursue commercial purposes and does not seek to make a profit. Any surplus from sales goes into project work, which in turn must not be profit-oriented. Source: Fundraiso",
+        "contributed-by": "Julia Daser"
+    },
+    { 
+        "id": 50,
         "category": "Book",
         "date": "2015",
         "scale": "National",
@@ -697,5 +712,35 @@
 		"tags":"famine, genocide, war, soviet union",
 		"description": "This book highlights the Kazakh famine of 1930-33 as one of the most heinous crimes of the Stanlinist regime- More than 1.5 million people perished, and the crisis transformed a territory the size of continental Europe. Yet, the story of this famine remained largely hidden from view, both in Kazakhstan and in the West. The book brings this largely unknown story to light and explores how this famine alters our understanding of Soviet modernization and nation-making. Source: Sarah Cameron for Harry Frank Guggenheim Foundation, 2015",
         "contributed-by": "Maiia Lysytska"
+    },
+    { 
+        "id": 51,
+        "category": "Restaurant, Community or Organization",
+        "date": "2024",
+        "scale": "National",
+        "country": "Switzerland, France",
+        "region": "Europe and Northern America",
+        "url": "https://refugee-food.org/",
+        "imageSrc": "https://refugee-food.org/wp-content/uploads/2023/09/DSC03127%C2%A9AnneClaireHeraud-scaled.jpg",
+        "name": "The Refugee Food project (2016-current)",
+        "location": "France",
+		"tags":"",
+		"description": "Refugee Food is a global project led by an association, whose objective is to raise awareness about the situation of refugees, accelerate the professional integration of refugees in the restaurant industry, and work towards tasty, fair, and sustainable food for all. Born in the form of a culinary festival in 2016, the project has since diversified considerably to become a global project responding to the various challenges of reception and integration in France. Source: The Refugee Food Project",
+        "contributed-by": ""
+    },
+    { 
+        "id": 52,
+        "category": "Community or Organization",
+        "date": "2024",
+        "scale": "Ground-Up or Local",
+        "country": "USA",
+        "region": "Europe and Northern America",
+        "url": "https://prisonagriculture.com/",
+        "imageSrc": "https://prisonagriculturelab.files.wordpress.com/2022/05/elayn-hunt-correctional-center_16.jpeg?w=1200",
+        "name": "Prison Agriculture Lab (2019-current)",
+        "location": "USA",
+		"tags":"prison, black sovereignty, agriculture, study group",
+		"description": "The Prison Agriculture Lab is a collaborative space for inquiry and action that focuses on agriculture in the criminal punishment system. Source: Prison Agriculture Lab",
+        "contributed-by": ""
     }
 ]

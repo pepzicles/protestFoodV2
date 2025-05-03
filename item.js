@@ -25,5 +25,7 @@ $(document).ready(function () {
         $("#item-region").text(item.region);
         $("#item-description").text(item.description);
         $("#item-url").attr("href", item.url);
+        $("#item-contributer").attr("href", item.contributed-by);
+        
     });
 });
