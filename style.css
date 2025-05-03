@@ -13,6 +13,13 @@
 }
 
 @font-face {
+    font-family: 'ibm-plex-sans-bold'; 
+    src: url('fonts/ibm-plex-sans/ibm-plex-sans.semibold.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'proxima-nova-title'; 
     src: url('fonts/proxima-nova/Fontspring-DEMO-proximanovacond-black.otf');
     font-weight: 300;
@@ -298,8 +305,9 @@ p:last-child {
 /* ABOUT PAGE */
 .aboutContainer{
     padding-left: 5%;
-    padding-top: 50px;
+    padding-top: 75px;
     padding-bottom: 50px;
+    padding-right: 5%;
 }
 
 .aboutHeader{
@@ -647,3 +655,58 @@ p:last-child {
     text-align: center; /* Center text inside */
     margin: 0 auto; /* Center the entire block */
 }
+
+
+/* WORKSHOP PAGE */
+.workshopContainer{
+    padding-left: 15%;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    padding-right: 15%;
+}
+
+
+.workshop-flex-container {
+  display: flex;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  gap: 70px;        /* space between columns */
+}
+
+.workshopColumn {
+    min-width: 300px;
+    box-sizing: border-box;
+    /* background-color: #f0f0f0;
+    border: 1px solid #ccc; */
+}
+
+.workshopColumnLeft{
+    flex: 1;
+}
+
+.workshopColumnRight{
+    flex: 2;
+}
+
+.workshopPara{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.workshopParaBold{
+    font-family: 'ibm-plex-sans-bold'; 
+}
+
+.workshopimg{
+    width: 100%;  
+    height: auto;       
+    display: block;
+}
+
+/* Optional: Add a breakpoint for finer control */
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+
