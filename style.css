@@ -1,13 +1,20 @@
 @font-face {
-    font-family: 'ABCFavoritMono-Regular-Trial'; /* A name you choose for the font */
-    src: url('fonts/ABCFavoritMono-Regular-Trial.otf');
+    font-family: 'ibm-plex-sans-regular';
+    src: url('fonts/ibm-plex-sans/ibm-plex-sans.regular.ttf');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'ABCFavoritMono-Light-Trial'; /* A name you choose for the font */
-    src: url('fonts/ABCFavoritMono-Light-Trial.otf');
+    font-family: 'ibm-plex-sans-light'; 
+    src: url('fonts/ibm-plex-sans/ibm-plex-sans.light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima-nova-title'; 
+    src: url('fonts/proxima-nova/Fontspring-DEMO-proximanovacond-black.otf');
     font-weight: 300;
     font-style: normal;
 }
@@ -23,6 +30,7 @@
 
   font-size: 100%;
   list-style: none;
+  line-height: 1.6;
 }
 
 a {
@@ -39,7 +47,7 @@ a:visited {
 }
 
 body{
-    font-family: 'ABCFavoritMono-Light-Trial', sans-serif;
+    font-family: 'ibm-plex-sans-light', sans-serif;
 }
 
 ::selection {
@@ -72,7 +80,7 @@ body{
     padding: 10px 10px 10px 20px; 
     font-size: 13px; 
     font-weight: 700;
-    font-family: 'ABCFavoritMono-Light-Trial', sans-serif;
+    font-family: 'ibm-plex-sans-light', sans-serif;
     border: 1px solid black;
     border-radius: 30px;
     background-color: #e8ebff;
@@ -147,7 +155,7 @@ p:last-child {
   margin: 10px;
   font-size: 15px; 
   font-weight: 700;
-  font-family: 'ABCFavoritMono-Light-Trial', sans-serif;
+  font-family: 'ibm-plex-sans-light', sans-serif;
   border: 1px solid black;
   border-radius: 30px;
   /* background-color: white; */
@@ -168,15 +176,15 @@ p:last-child {
     text-align: center;
     font-size: 15px;
     margin: 0 auto;
-    max-width: 600px;
-    padding-top: 40px;
+    max-width: 400px;
+    padding-top: 30px;
 }
 
 .title{
     text-align: center;
     font-size: 45px;
     padding-top: 50px;
-    font-family: 'ABCFavoritMono-Regular-Trial', sans-serif;
+    font-family: 'proxima-nova-title';
     text-decoration: none;
     color: black; /* Set text color */
 }
@@ -279,7 +287,7 @@ p:last-child {
     border: white;
     font-size: 13px;
     cursor: pointer;
-    font-family: 'ABCFavoritMono-Light-Trial', sans-serif;
+    font-family: 'ibm-plex-sans-light', sans-serif;
     text-align: left;
     width: 100%;
     color: rgb(29, 107, 210);
@@ -305,7 +313,7 @@ p:last-child {
 }
 
 .aboutPara{
-    font-size: 13px;
+    font-size: 15px;
     margin-bottom: 25px;
     width: 50%;
     max-width: 800px;
@@ -355,7 +363,7 @@ p:last-child {
 }
 
 .newsletterPara{
-    font-size: 13px;
+    font-size: 15px;
     margin-bottom: 25px;
     width: 25%;
     max-width: 800px;
@@ -368,10 +376,9 @@ p:last-child {
 }
 
 .resourceTitle{
-    font-family: 'ABCFavoritMono-Regular-Trial';
+    font-family: 'ibm-plex-sans-regular';
     font-size: 17px;
 }
-
 
 
 /* SUBMISSION PAGE */
@@ -386,7 +393,7 @@ p:last-child {
 }
 
 .submitPara{
-    font-size: 13px;
+    font-size: 15px;
     margin-bottom: 25px;
     width: 40%;
     max-width: 570px;
@@ -408,7 +415,7 @@ p:last-child {
 }
 
 .submissionInput{
-    font-family: 'ABCFavoritMono-Light-Trial', sans-serif;
+    font-family: 'ibm-plex-sans-light', sans-serif;
     font-size: 13px;
     width: 100%;
     margin-bottom: 20px;
@@ -430,7 +437,7 @@ p:last-child {
     height: 40px; 
     width: 100%; 
     cursor: pointer;
-    font-family: 'ABCFavoritMono-Light-Trial', sans-serif;
+    font-family: 'ibm-plex-sans-light', sans-serif;
     font-size: 17px;
     
     margin-top: 50px;
@@ -545,13 +552,18 @@ p:last-child {
 
 .item-container-text{
     margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.item-description{
+    margin-bottom: 15px;
 }
 
 .item-read-more-button{
     padding: 7px 30px 7px 30px; 
     font-size: 15px; 
     font-weight: 700;
-    font-family: 'ABCFavoritMono-Light-Trial', sans-serif;
+    font-family: 'ibm-plex-sans-light', sans-serif;
     border: 1px solid black;
     border-radius: 30px;
     cursor: pointer;
