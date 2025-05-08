@@ -22,12 +22,17 @@
     </div>
     
 
-    <div class="wrapper">
-        <div class="wrapperMenu">
-            <h2 class = "filterby">Filter by:</h2>
+    <div class = "dropdown-container">
 
+        <div class="flex-item-filter">
+            <p class = "filterIcon">FILTER</p>
+            <!-- <img class = "filterIcon" style = "width: 15px; height:15px;" src = "images/symbols/sort.png"> -->
+        </div>
+
+
+
+        <div class="dropdown-flex">
             <!-- Dropdown for category-->
-            
             <div class="dropdown" id="category">
                 <div class="dropdown-toggle">category
                     <img style = "width: 12px" src = "images/symbols/dropdownArrow.png">
@@ -43,7 +48,11 @@
                     <label><input type="checkbox" value="Book"> Book</label>
                 </div>
             </div>
+        </div>
 
+
+
+        <div class="dropdown-flex">
             <!-- Dropdown for scale-->
             <div class="dropdown" id="scale">
                 <div class="dropdown-toggle">scale
@@ -59,8 +68,11 @@
                     <label><input type="checkbox" value="Transnational"> Transnational</label>
                 </div>
             </div>
+        </div>
 
 
+
+        <div class="dropdown-flex">
             <!-- Dropdown for Sorting by Date -->
             <div class="dropdown">
                 <div class="dropdown-toggle">date
@@ -71,7 +83,12 @@
                     <label><input type="radio" name="sortDate" value="oldest"> Oldest First</label>
                 </div>
             </div>
+        </div>
 
+
+
+
+        <div class="dropdown-flex">
             <!-- Dropdown for Country/Land -->
             <div class="dropdown">
                 <div class="dropdown-toggle"> territories
@@ -123,7 +140,7 @@
                     <label><input type="checkbox" value="Switzerland"> Switzerland</label>
                     <label><input type="checkbox" value="Taiwan"> Taiwan</label>
                     <label><input type="checkbox" value="Thailand"> Thailand</label>
-                    <label><input type="checkbox"s value="Togo"> Togo</label>
+                    <label><input type="checkbox" value="Togo"> Togo</label>
                     <label><input type="checkbox" value="Tunisia"> Tunisia</label>
                     <label><input type="checkbox" value="The Gambia"> The Gambia</label>
                     <label><input type="checkbox" value="Ukraine"> Ukraine</label>
@@ -133,8 +150,14 @@
                     
                 </div>
             </div>
+        </div>
 
 
+
+
+
+
+        <div class="dropdown-flex">
             <!-- Dropdown for Region-->
             <div class="dropdown">
                 <div class="dropdown-toggle">region
@@ -145,18 +168,23 @@
                     <label><input type="checkbox" value="Australia and New Zealand"> Australia and New Zealand</label>
                     <label><input type="checkbox" value="Central and Southern Asia"> Central and Southern Asia</label>
                     <label><input type="checkbox" value="Eastern and South Eastern Asia"> Eastern and South Eastern Asia</label>
-                    <label><input type="checkbox" value="Europe and Nothern America"> Europe and Nothern America</label>
+                    <label><input type="checkbox" value="Europe and Nothern America"> Europe and Northern America</label>
                     <label><input type="checkbox" value="Latin America and the Caribbean"> Latin America and the Caribbean</label>
                     <label><input type="checkbox" value="Nothern Africa and Western Asia"> Northern Africa and Western Asia</label>
                     <label><input type="checkbox" value="Oceania"> Oceania</label>
                     <label><input type="checkbox" value="Sub-Saharan Africa"> Sub-Saharan Africa</label>
                 </div>
             </div>
-
-            <!-- Clear filter -->
-            <button id="clear-filters" class = "filterby"> Clear Filters</button>
-            
         </div>
+
+        
+        <div class="flex-item-clearFilter">
+            <!-- Clear filter -->
+            <button id="clear-filters" class = "filterby"> CLEAR FILTER</button>
+        </div>
+        
+    </div>
+
 
 
         <!-- ALL THE CONTENT GOES HERE -->
