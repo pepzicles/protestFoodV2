@@ -20,6 +20,13 @@
 }
 
 @font-face {
+    font-family: 'ibm-plex-sans-medium'; 
+    src: url('fonts/ibm-plex-sans/ibm-plex-sans.medium.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'proxima-nova-title'; 
     src: url('fonts/proxima-nova/Fontspring-DEMO-proximanovacond-black.otf');
     font-weight: 300;
@@ -328,15 +335,42 @@ p:last-child {
 
 
 /* ABOUT PAGE */
+
+.about-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 75px;
+  padding-bottom: 5%;
+  gap: 10%;
+}
+
+.about-flex-right {
+  /* background-color: #f1f1f1; */
+  flex: 50%;
+  margin-bottom: 75px;
+}
+
+.about-flex-left {
+  /* background-color: dodgerblue; */
+  flex: 30%;
+  margin-bottom: 75px;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 300px) {
+  .about-flex-left, .about-flex-right {
+    flex: 100%;
+  }
+}
+
 .aboutContainer{
-    padding-left: 5%;
-    padding-top: 75px;
-    padding-bottom: 50px;
-    padding-right: 5%;
 }
 
 .aboutHeader{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 17px;
 }
 
@@ -348,16 +382,20 @@ p:last-child {
 .aboutPara{
     font-size: 15px;
     margin-bottom: 25px;
-    width: 50%;
-    max-width: 800px;
-    min-width: 400px;
+}
+
+.about-flex-div{
+    font-size: 15px;
+    margin-bottom: 75px;
+}
+
+.creditsHeader{
+    margin-top: 75px;
+    font-size: 17px;
+    margin-bottom: 10px;
 }
 
 /* Newsletter Subscription form */
-.newsletter{
-    margin-top: 50px;
-    padding-left: 5%;
-}
 
 .newsletterForm{
     background: #ffffff; 
@@ -388,7 +426,7 @@ p:last-child {
     margin-top: 10px; 
     display: block;
     color: rgb(207, 0, 0);
-    margin-bottom: 100px;
+    margin-bottom: 75px;
 }
 
 .newsletterHeader{
@@ -510,6 +548,22 @@ p:last-child {
     }
 }
 
+.submitHeader{
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+.submitContainer{
+    padding-left: 5%;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    padding-right: 5%;
+}
+
+.creditspara{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
 
 /* EACH INDIVIDUAL ITEM PAGE */
 
@@ -626,7 +680,7 @@ p:last-child {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    margin-top: 5%;
+    margin-top: 75px;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -753,7 +807,8 @@ p:last-child {
   text-align: center;
   margin-right: 11%;
   margin-left: 11%;
-  margin-top: 30px;
+  margin-top:50px;
+  margin-bottom: 50px;
 }
 
 .flex-item-filter{
