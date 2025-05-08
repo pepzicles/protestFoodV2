@@ -61,38 +61,34 @@ body{
   background: #FFFA7C;
 }
 
-.wrapperMenu {
-    display: flex;
-    justify-content: center;
-    /* flex-wrap: wrap;  */
-    padding: 70px 0 0 0;
-    max-width: 80%; 
-    margin: 0 auto;
-    margin-bottom: 50px;
-}
-
-.menu {
-    width: 100%;
-}
 
 /* Custom dropdown styling */
 .dropdown {
     position: relative;
     width: 100%;
-    padding-right: 20px;
+    /* padding-right: 20px; */
 }
 
 .dropdown-toggle {
     width: 100%;
-    padding: 10px 10px 10px 20px; 
-    font-size: 13px; 
+    padding: 5px 10px 5px 20px; 
+    font-size: 15px; 
     font-weight: 700;
     font-family: 'ibm-plex-sans-light', sans-serif;
     border: 1px solid black;
     border-radius: 30px;
-    background-color: #e8ebff;
+    background-color: #ececec;
     cursor: pointer;
     text-align: left;
+}
+
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+    background-color: #c3c3c3;
+}
+
+.dropdown-menu label:hover {
+    background-color: #f0f0f0;
 }
 
 .dropdown-menu {
@@ -119,10 +115,6 @@ body{
 .dropdown-menu input[type="checkbox"] {
     margin-right: 10px;
 }
-/* 
-.content {
-    margin: 30px 0;
-} */
 
 .data {
     display: none; /* Initially hide all country info */
@@ -149,27 +141,37 @@ p:last-child {
 
 .button-container {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line on smaller screens */
+    justify-content: center;
+    align-items: center;
     max-width: 800px;
-    margin: 0 auto;
-    margin-top: 40px;
+    margin: 40px auto 0 auto;
+    /* padding: 0 10px; */
 }
 
 .button {
-  /* width: 100%; */
-  padding: 7px 30px 7px 30px; 
-  margin: 10px;
-  font-size: 15px; 
-  font-weight: 700;
-  font-family: 'ibm-plex-sans-light', sans-serif;
-  border: 1px solid black;
-  border-radius: 30px;
-  /* background-color: white; */
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none; /* Remove underline */
-  color: black; /* Set text color */
+    padding: 10px 20px;
+    margin: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'ibm-plex-sans-light', sans-serif;
+    border: 1px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    flex: 1 1 auto; /* Let buttons grow/shrink */
+    max-width: 150px; /* Prevent buttons from being too wide */
+    min-width: 100px; /* Prevent buttons from getting too small */
+    box-sizing: border-box;
+}
+
+@media (max-width: 500px) {
+    .button {
+        font-size: 13px;
+        padding: 8px 15px;
+    }
 }
 
 
@@ -199,20 +201,43 @@ p:last-child {
 
 
 .filterby{
-    margin-right: 0px;
+    margin-right: 40px;
     font-size: 13px;
     width: 70%;
+    text-align: center;
 }
 
 
 .flex-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 columns */
-    gap: 20px; /* Add space between items */
-    padding: 20px;
-    max-width: 80%; /* Adjust as needed */
+    grid-template-columns: repeat(5, 1fr); /* Default: 5 columns */
+    gap: 20px;
+    padding: 20px 0px 0px 0px;
+    max-width: 80%;
     margin: 0 auto;
 }
+
+/* Tablet screens: 3 columns */
+@media (max-width: 1024px) {
+    .flex-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Smaller tablets / large phones: 2 columns */
+@media (max-width: 768px) {
+    .flex-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Phones: 1 column */
+@media (max-width: 480px) {
+    .flex-container {
+        grid-template-columns: 1fr;
+    }
+}
+
 
 .flex-item {
     border-radius: 8px;
@@ -363,6 +388,7 @@ p:last-child {
     margin-top: 10px; 
     display: block;
     color: rgb(207, 0, 0);
+    margin-bottom: 100px;
 }
 
 .newsletterHeader{
@@ -642,6 +668,7 @@ p:last-child {
     display: flex;
     flex-direction: column; /* Stack children vertically */
     align-items: center; /* Center everything inside */
+    margin-top: 75px;
 }
 
 .resourcesHeader {
@@ -650,10 +677,14 @@ p:last-child {
 }
 
 .resourcesPara {
-    font-size: 14px;
+    font-size: 15px;
     max-width: 600px;
     text-align: center; /* Center text inside */
     margin: 0 auto; /* Center the entire block */
+}
+
+.embededbook{
+    margin-top: 40px;
 }
 
 
@@ -710,3 +741,44 @@ p:last-child {
 }
 
 
+
+
+
+
+/* TEST FLEXBOX */
+.dropdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+  text-align: center;
+  margin-right: 11%;
+  margin-left: 11%;
+  margin-top: 30px;
+}
+
+.flex-item-filter{
+    margin: auto;
+    flex: 3%;
+    /* background-color: rgb(176, 176, 135); */
+}
+
+.flex-item-clearFilter{
+    margin: auto;
+    flex: 5%;
+    /* background-color: rgb(176, 176, 135); */
+}
+
+.dropdown-flex {
+    text-align: center;
+    /* background-color: #ab7575; */
+    /* padding: 10px; */
+    margin: 10px;
+    flex: 12%;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 900px) {
+  .dropdown-flex {
+    flex: 100%;
+  }
+}
