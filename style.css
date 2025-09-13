@@ -239,7 +239,7 @@ p:last-child {
 }
 
 /* Phones: 1 column */
-@media (max-width: 480px) {
+@media (max-width: 200px) {
     .flex-container {
         grid-template-columns: 1fr;
     }
