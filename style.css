@@ -511,7 +511,7 @@ p:last-child {
     cursor: pointer;
     font-family: 'ibm-plex-sans-light', sans-serif;
     font-size: 17px;
-    
+    color: black;
     margin-top: 50px;
     align-self: flex-end;
 }
