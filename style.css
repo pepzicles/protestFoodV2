@@ -114,9 +114,13 @@ body{
 
 .dropdown-menu label {
     display: flex;
-    align-items: center;
     padding: 10px;
     cursor: pointer;
+    text-align: left;
+}
+
+.dropdown-date-label{
+    margin-right: 10px;
 }
 
 .dropdown-menu input[type="checkbox"] {
