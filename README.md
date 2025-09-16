@@ -51,7 +51,7 @@ A hand-coded interactive online archive documenting food’s role in social move
 
 You can filter entries by category, scale, date, region, and topic — and even submit your own examples, making it a living, participatory record. 
 
-You can view the archive on desktop and mobile at [protestfood.com](protestfood.com).
+You can view the archive on desktop and mobile at [protestfood.com](https://protestfood.com/).
 
 You can also download the data of my archive from this [json file](https://github.com/pepzicles/protestFoodV2/blob/main/data.json).
 
