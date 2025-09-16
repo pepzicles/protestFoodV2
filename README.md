@@ -16,6 +16,8 @@ You can find all 3D models [here](https://github.com/pepzicles/protestFoodV2/tre
 
 This workshop was heavily inspired by [Hong Kong’s Anti-Extradition Mooncakes](https://protestfood.com/item.html?id=8), as well as my own heritage.
 
+<br>
+
 <img src="images/workshop/workshopSample.JPG" alt="image of a personalized mooncake stamped with word 'FREE'" width="600px"/>
 
 <br>
