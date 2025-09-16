@@ -1,5 +1,7 @@
 # Protest Food 
-**By Pepi Ng**  
+**By [Pepi Ng](https://pepzicles.com/)**  
+
+<br>
 
 ## About 
 Protest Food consists of three parts: 
@@ -14,7 +16,7 @@ You can find all 3D models [here](https://github.com/pepzicles/protestFoodV2/tre
 
 This workshop was heavily inspired by [Hong Kong’s Anti-Extradition Mooncakes](https://protestfood.com/item.html?id=8), as well as my own heritage.
 
-<img src="images/workshop/workshopSample.jpg" alt="demo" width="600px"/>
+<img src="images/workshop/workshopSample.JPG" alt="image of a personalized mooncake stamped with word 'FREE'" width="600px"/>
 
 <br>
 
@@ -36,7 +38,7 @@ The book features stories of:
 
 You can download the pdf version of the book [here](https://github.com/pepzicles/protestFoodV2/blob/main/book/ProtestFood_Book.pdf).
 
-<img src="images/book/1.png" alt="demo" width="600px"/>
+<img src="images/book/1.png" alt="Front cover of book 'PROTEST FOOD'" width="600px"/>
 
 <br>
 
@@ -51,13 +53,15 @@ You can view the archive on desktop and mobile at [protestfood.com](protestfood.
 
 You can also download the data of my archive from this [json file](https://github.com/pepzicles/protestFoodV2/blob/main/data.json).
 
-<img src="images/archive/archive-screenshot.png" alt="demo" width="600px"/>
+<img src="images/archive/archive-screenshot.png" alt="Screenshot of the online archive, consisting of many examples of how food is used as a form of protest today." width="600px"/>
 
 <br>
 
 ## Contact
 
 This project is constantly updating and evolving as I explore more of food's role in politics and resistance. I would love to continue iterating on this project. If you have ideas/ would like to chat, please contact me at [yiqing.ng@gmail.com](yiqing.ng@gmail.com)
+
+<br>
 
 ## Credits
 
