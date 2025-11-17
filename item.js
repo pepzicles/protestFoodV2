@@ -25,7 +25,12 @@ $(document).ready(function () {
         $("#item-region").text(item.region);
         $("#item-description").text(item.description);
         $("#item-url").attr("href", item.url);
-        $("#item-contributer").attr("href", item.contributed-by);
+
+        // Add contributer if it exists
+        if (item["contributed-by"]) {
+            const contributorHTML = `<p class = "item-contributor"><strong>Contributed by:</strong> ${item["contributed-by"]}</p>`;
+            $("#item-description").after(contributorHTML); //insert contributor data after the description
+        }
         
     });
 });

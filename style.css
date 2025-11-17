@@ -659,6 +659,11 @@ p:last-child {
     justify-content: flex-start; /* Align content to the top by default */
 }
 
+.item-contributor{
+    margin-top: 20px;
+    font-style: italic;
+}
+
 .item-container-text{
     margin-bottom: 15px;
     font-size: 14px;
